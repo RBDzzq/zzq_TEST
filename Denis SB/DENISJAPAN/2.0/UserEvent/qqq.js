@@ -1,1 +1,0 @@
-var aa = '<script>document.location = "/app/accounting/transactions/vendauthmanager.nl?type=cancel&id=" + {internalid} + "&whence=";</script>';

@@ -1,9 +1,0 @@
-<refFields type="Zengin">
-    <refField id="custrecord_2663_bank_comp_id" label="EFT ID" mandatory="true" helptext="Enter your company's EFT requester ID. This number is assigned by the bank."/>
-    <refField id="custrecord_2663_bank_num" label="Bank Number" mandatory="true" helptext="Enter the number that identifies the bank in the Japanese banking industry."/>
-    <refField id="custrecord_2663_branch_num" label="Branch Number" mandatory="true" helptext="Enter the number that identifies the bank branch where your account is maintained."/>
-    <refField id="custrecord_2663_acct_num" label="Account Number" mandatory="true" helptext="Enter your company's bank account number."/>
-    <refField id="custrecord_2663_bank_name" label="Bank Name" helptext="Enter the name of the bank where your company's account is maintained."/>
-    <refField id="custrecord_2663_branch_name" label="Branch Name" helptext="Enter the name of the bank branch where your company's bank account is maintained."/>
-    <refField id="custrecord_2663_bank_acct_type2" label="Account Type" mandatory="true" helptext="Select whether your bank account is an ordinary or checking account."/>
-</refFields>
