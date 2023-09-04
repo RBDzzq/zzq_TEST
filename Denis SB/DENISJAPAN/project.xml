@@ -1,0 +1,542 @@
+<project info="SuiteCloud IDE generated file, do not edit." setAttributesOnUpdate="false">
+  <folder name="DENISJAPAN" bundleable="false">
+    <folder name="2.0" bundleable="false">
+      <folder name="Client" bundleable="false">
+        <file name="dj_cs_import_csv.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_journal_auto_split.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_journal_split_check.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_payment_adjustment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_payment_adjustment_before.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_payment_adjustment_diff.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_payment_management.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_rakuraku_import_csv.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_reserved_exchange_rate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_vendorbill_auto_split.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_cs_vendorbill_split_check.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_appr_actual_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_appr_custody_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_appr_landed_cost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_appr_master_modify.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_appr_status_display.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_appr_trans_modify.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_brybery_trans.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_echange_rate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_estimate_2.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_exsystem_customer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_finet_item_code_mapping.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_finet_sender_code.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_ibs_report.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_inventoryadjustment_2.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_journalsub.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_rios&amp;jram_entrance.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_sales_report.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_trans_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="Common" bundleable="false">
+        <file name="common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="denis_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_pl_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_url_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_send_mails_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="file_cabinet_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="lib.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="me.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="moment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="myconfig.json" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="underscore.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="underscore.string.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="utils.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="MapReduce" bundleable="false">
+        <file name="dj_mr_create_journal_customerpayment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_mr_import_csv.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_actual_forecast.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_date_update.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_fc_daily_news.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_finet.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_jram_so.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_library_analysis.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_rios_delivered.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_rios_delivery_schedule.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_rios_so.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_so_to_import.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_mr_wms.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="RESTlet_output" bundleable="false">
+        <file name="jdkk_rl_exsystem_finet.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="jdkk_rl_wms.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="rl_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="rl_send_functions.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="Restlet" bundleable="false">
+        <file name="Common_2_Data_Setting.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="Customform_Data_Setting.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="SS_MapReduceScript_step1.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="SS_MapReduceScript_step2.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="SS_MapReduce_JsonRcdDeleteByTime.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_rl_so_to_import.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="getSelectData.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="setDataJSONRESTlet2.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="Scheduled" bundleable="false">
+        <file name="dj_ss_rakuraku_create_journal.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_brybery_appr.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_edi.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_so_to_import.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_wms.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="Suitelet" bundleable="false">
+        <file name="dj_sl_import_csv.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_sl_payment_adjustment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_sl_payment_adjustment_before.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_sl_payment_adjustment_diff.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_sl_payment_management.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_sl_rakuraku_import_csv.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_customer_shipstop.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_drydery_appr.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_ibs_report.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_nbkk_basic_pattern_fs_re.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_nbkk_basic_ppea_adi.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_nbkk_immediate_pull.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_rios&amp;jram_entrance.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_sales_report.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_ul_basic_pattern.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_ul_basic_ppea_adi.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_yoyaku_rate_pop.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="UserEvent" bundleable="false">
+        <file name="dj_pl_reserved_exchange_rate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_ue_custpayment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_ue_journal_auto_split.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_ue_reserved_exchange_r1.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_ue_reserved_exchange_r2.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_ue_reserved_exchange_rate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="dj_ue_vendorbill_auto_split.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_actual_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_appr_inventory_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_appr_landed_cost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_appr_master_modify.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_appr_trans_modify.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_custody_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_customer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_delivery.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_echange_rate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_estimate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_exsystem_customer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_finet_item_code_mapping.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_finet_sender_code.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_inventory_adjustment_update.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+        <file name="djkk_ue_inventory_transfer_update.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+        <file name="djkk_ue_invoice_cust_relations..js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_seijoishii_vendor_code.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_transaction_common_for_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="WorkflowAction" bundleable="false">
+        <file name="djkk_wf_actual_creat_adjust.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_actual_creat_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_actual_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_creditmemo.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_custody_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_ic_admit.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_landed_cost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_master_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_master_mail_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_trans_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_trans_approval_status.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_trans_mail_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_wf_trans_make.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+    </folder>
+    <folder name="Client" bundleable="false">
+      <folder name="Forecast" bundleable="false">
+        <folder name="food" bundleable="false">
+          <file name="djkk_cs_create_fc_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_forecast_comment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_forecast_create_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_forecast_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_forecast_view_bp.js.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_forecast_view_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        </folder>
+        <folder name="ls" bundleable="false">
+          <file name="djkk_cs_fc_ls_comment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_fc_ls_create_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_fc_ls_create_bp_week.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_fc_ls_create_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_fc_ls_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_fc_ls_view_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_fc_ls_view_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+          <file name="djkk_cs_forecast_view_bp_wk.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        </folder>
+      </folder>
+      <file name="djkk_buy_price_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_Inventory_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_ac_wf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_ac_wf_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_actual_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_address.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_admit_record.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_arrival_luggage.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_assemblybuild.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_bin.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_brybery.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_buy_price.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_contract.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_creditmemo.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_creditmemo_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_custody_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_customer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_customer_document_retransmission.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_customer_good_set.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_customer_group.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_customerdeposit.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_dashboard_mail_send.js.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_delivery_destination.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_delivery_group.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_delivery_slip_iss.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_delivery_slip_product.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_dj_inventory_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_employee.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_estimate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_exsystem_delivery.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_fc_bp_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_fc_bp_input.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_fc_bp_ls.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_fc_bp_single_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_hikiate_adjust.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_in_stock_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_incoterm.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inspection_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inspection_list_procedure.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inv_clearofcopy.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inv_physical.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inv_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventory_custody.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventory_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventory_in_custody_change.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventory_instructions.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventory_report.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventory_report_history.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventoryadjustment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventoryadjustment_keep.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventorydetail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_inventorytransfer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_invoice.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_invoice_change_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_invoice_change_listing.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_invoice_creation_function.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_invoice_summary.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_itemfulfillment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_itemmaster.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_itemreceipt.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_land_cost_mainsub.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_landed_cost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_location.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_location_move_instruction.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_opportunity.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_poprepayment_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_price_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_price_list_detail_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_price_list_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_product_group.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_project.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_purchaseorder.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_repair.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_repair_search_so.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_reserved_exchange_rate.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_returnauthorization.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_sales_report_new.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_salesoder_change_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_salesorder.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_send_email_synchronously.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_stock_quantity_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_stock_shipping_information.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_total_invoice.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_tran_price.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_uploadFile.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_vendor.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_vendor_itemSearch.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_vendorbill.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_vendorcredit.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_vendorreturnauthorization.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_wo_shippinglist.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_workorder.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="Common" bundleable="false">
+      <file name="djkk_lb_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_lb_custrecords_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_lb_transactions_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="Plugin" bundleable="false">
+      <file name="djkk_pl_customerdeposit.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="Scheduled" bundleable="false">
+      <file name="djkk_ss_actual_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_automatic_sendmail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_business_fc_change.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_changeField.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_create_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_csv_output.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_dashboard_mail_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_delete_data.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_delivery_slip_iss.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_delivery_slip_product.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_estimatepdf_sendmail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_expirationdate_setting.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_fc_bp_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_fc_bp_transfer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_fc_csv_upload_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_hikiate_adjust.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_in_stock_chooser.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_in_stock_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_inspection_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_inv_report_history.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_inventory_instructions.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_invoice_change_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_invoice_change_listing.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_invoice_creation_function.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_invoice_summary.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_invoice_summary_flg.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_location_move_instruction.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_phy_inv.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_poprepayment_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_price_list_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_salesorder_change_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_send_mails.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_send_mails_ls.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_total_inv_status.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_transaction_data_delete.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_wo_shippinglist.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="Suitelet" bundleable="false">
+      <file name="copy_djkk_sl_supplier_returns_pdf_lu.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_Inventory_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_Invoice_change_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_barcode_itemreceipt_cz.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_bribery_acknowledgment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_brybery.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_client_delete_record.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_creditmemo_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_customer_document_retransmission.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_dashboard_mail_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_delivery_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_delivery_pdf_lu.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_delivery_slip iss.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_delivery_slip_product.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_dj_inventory_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_error_sendmails.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_bp_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_bp_transfer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_csv_uploadFile.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_view_bp_wk.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_hikiate_adjust.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_in_library_detailsl.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_in_stock_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_inspection_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_inspection_list_procedure.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_inventory_custody.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_inventory_instructions.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_inventory_report.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_inventory_report_history.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_inventoryadjustment_keep.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_change_listing.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_creation_function.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_fields_modify.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_pdfMaker.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_pdfMaker_lu.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_pdfMaker_lu02.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_pdfTwo.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_summary.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_summary_print.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_summary_send_email.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_invoice_transaction_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_itemreceipt_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_location_move_instruction.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_pdftest.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_physical_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_physical_inventory_new.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_poprepayment_send.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_prepayment_invoice_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_purchaseorder_pdfmaker.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_purchaseorder_pdfmaker_lu.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_purchaseorder_pdfmaker_new.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_receiptpdf_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_repair.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_repair_search_so.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_sales_report_new.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_scheduled_getstatus.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_send_warehousing_reservation.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_sendmail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_sendmail_inventory_change.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_so_repair_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_solesorder_change_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_stock_quantity_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_stock_shipping_information.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_supplier_returns_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_uploadFile.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_wo_shippinglist.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="UserEvent" bundleable="false">
+      <file name="djkk_ue_Inventory_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_ac_wf_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_actual_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_admit_record.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_arrival_luggage.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_arrival_luggage_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_assemblybuild.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_automatic_sendmail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_bin.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_bp_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_brand.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_brybery.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_buy_price.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_buy_price_detail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_cash_sales.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_contract.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_credit_note.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_creditmemo_approval.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_custody_beinventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_customer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_customerdeposit.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_delivery_destination.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_employee.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_error_delivered.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_estimates.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_exsystem_location.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_fc_bp_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_fc_bp_ls.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_fc_bp_single_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inv_clearofcopy.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inv_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inventory_details.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inventory_in_custody.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inventory_in_custody_change.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inventory_in_custody_l.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inventoryadjustment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_inventorytransfer.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_invoice.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_invoice_pricelist_price.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_item_inv_common.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_itemfulfillment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_itemmaster.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_itemreceipt.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_landed_cost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_leader.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_location.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_opportunity.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_price_list.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_price_list_detail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_price_list_detail_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_price_list_fd.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_project.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_prospect.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_purchaseorder.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_repair.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_return.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_salesorder.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_session.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_total_invoice.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_vendor.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_vendor_itemSearch.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_vendorbill.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_vendorcredit.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_vendorprepayment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_vendorreturnauthorization.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_workorder.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="WorkflowAction" bundleable="false">
+      <file name="djkk_wf_auto_sendmail.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="testing" bundleable="false">
+      <folder name="FCscheduled" bundleable="false">
+        <file name="djkk_ss_barcode.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_create_fc_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_fc_ls_create_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_fc_ls_create_bp_week.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_fc_ls_create_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_fc_ls_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ss_forecast_create_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="FCtest" bundleable="false">
+        <file name="djkk_cs_fc_ls_view_bp_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_forecast_view_bp_wk_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_fc_ls_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_fc_ls_view_bp_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_fc_ls_view_bp_wk_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <folder name="LandCost" bundleable="false">
+        <file name="djkk_cs_arrival_luggage.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_land_cost_mainsub.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_cs_landed_cost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_sl_client_delete_record.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_arrival_luggage.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_itemreceipt_landcost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+        <file name="djkk_ue_landed_cost.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      </folder>
+      <file name="djkk_cs_arrival_luggage_b.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_cs_landed_cost_b.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_barcode_inventory.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_barcode_inventoryadjustment_food.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_utf8"/>
+      <file name="djkk_sl_barcode_itemreceipt.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_barcode_setup.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_barcode_shipping.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_client_delete_record_b.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_create_fc_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_create_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_create_bp_week.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_create_po.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_poview.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_view_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_view_bp_wk.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_fc_ls_view_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_forecast_comment.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_forecast_create_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_forecast_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_forecast_create_sc_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_forecast_poview.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_forecast_view_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_sl_forecast_view_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_fc_ls_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_forecast_create_bp.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ss_forecast_create_sc.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_actual_de_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_actual_test.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_arrival_luggage_b.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_itemreceipt_b.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_landed_cost_b.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="djkk_ue_purchaseorder_b.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="so_clientFieldChanged_new.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="test0320.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="test0614.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="testcs0320.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+    <folder name="xml" bundleable="false">
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="?O????????PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="TP0002_0002_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="TP0003_0003_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="TP0003_0003_pdf.js" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+      <file name="‘O‹à¿‹‘PDF_2023724_1416412.ftl" bundleable="false" hideInBundle="false" isOnline="false" textFileEncoding="_shiftJis"/>
+    </folder>
+  </folder>
+</project>

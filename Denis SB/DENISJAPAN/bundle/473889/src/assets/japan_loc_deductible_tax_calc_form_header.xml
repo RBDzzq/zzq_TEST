@@ -1,0 +1,215 @@
+<head>
+    <link name="japanesefont" type="font" subtype="opentype"
+          src="NetSuiteFonts/NotoSansCJKjp-Regular.otf"
+          src-bold="NetSuiteFonts/NotoSansCJKjp-Bold.otf"
+          bytes="2"/>
+
+    <style>
+    .calc-form-container { height:297mm; width:210mm; font-family:japanesefont !important;}
+    .bord-t {border-top: 1px solid #000000;}
+    .bord-b {border-bottom: 1px solid #000000;}
+    .bord-l {border-left: 1px solid #000000;}
+    .bord-r {border-right: 1px solid #000000;}
+    .bord-t-th {border-top: 2px solid #000000;}
+    .bord-b-th {border-bottom: 2px solid #000000;}
+    .bord-l-th {border-left: 2px solid #000000;}
+    .bord-r-th {border-right: 2px solid #000000;}
+
+    .no-padding{padding:0px;border-collapse:collapse;}
+    .padding-2px {padding: 2px;}
+    .small-labels {font-size:6px;}
+    .form-values {font-size:12px;}
+    .cell-table{
+    cellspacing:0;
+    cellpadding:0;
+    width:100%;
+    }
+    .diagonal-line{
+    background-image:url(${assets['diagonal.jpg']});
+    }
+
+    .narrow-column {width: 4.38mm;}
+    .gray-bg {}
+    .light-gray-bg {background-color: #EDEDED;}
+    .form-header-note {font-size: 8px;}
+
+    .deduc-form-row-no {
+    padding: 0px 0px !important;
+    vertical-align: middle !important;
+    }
+    .deduc-form-footer{
+    font-size: 6px;
+    padding: 0px;
+    }
+
+    .deduc-form-row-label {
+    vertical-align: middle !important;
+    }
+
+    .deducformheader {
+    vertical-align: middle !important;
+    height: 11mm;
+    }
+
+    .calc-form-header-table {
+    font-size: 10px;
+    border-spacing: 0px;
+    right: 0;
+    }
+
+    .calc-form-table {
+    font-size: 10px;
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 0px;
+    }
+
+    .calc-form-title-table {
+    font-size: 12px;
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 0px;
+    }
+
+    .calc-form-title-table tr td {
+    padding: 0px !important;
+    font-weight: bold;
+    }
+
+    .calc-form-table tr td,
+    .calc-form-header-table tr td {vertical-align: top;}
+    
+    .plumish {color: #CC9999;}
+	.orangish {color: #CC9900;}
+    
+    .ref_num-data-cell-bg {
+		background-image:url(${assets['japan_tax_form_2_ref_num_boxes.jpg']});
+		padding: 0mm;
+		border-collapse: separate;
+		border-spacing: 1px;
+	}
+	
+	.dotted-box-data-cell-bg {
+		background-image:url(${assets['japan_tax_form_box_dotted.jpg']});
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	
+	.mid-sec-data-cell-bg {
+		background-image:url(${assets['japan_tax_form_mid_sec_data_cells.jpg']});
+		padding: 0mm;
+	}
+
+	.table-3-data-cell-bg {
+		background-image:url(${assets['japan_tax_form_2_table_3_data_cells.jpg']});
+		padding: 0mm;
+	}
+	
+	.table-3-data-cell-format {
+		height: 6mm;
+		vertical-align: middle;
+		letter-spacing: 3.05mm;
+		margin-right: -1.5mm;
+	}
+	
+	.index-labels {font-size:10px;}
+
+    .form1table{ table-layout: fixed; border-collapse: collapse; border-spacing: 0px; font-size: 12px;}
+    .jpfontseven{ font-size:7px !important; }
+    .jpfonteight{ font-size:8px !important; }
+    .jpsmallerfont{font-size:9px;}
+    .jpsmallfont{font-size: 10px !important;}
+    .jpmediumfont{font-size: 9pt;}
+    .jp1_deduc-form-row-label{ font-size: 10px; }
+    .vcenter{ vertical-align: middle; }
+    .japtax-form-container { height:297mm; width:210mm; font-family:japanesefont !important;}
+    #taxform1headernote{
+        float:left;
+        clear: both !important;
+        padding-left: 25px;
+        height: 20px;
+        font-size:12pt;
+    }
+    #taxform1sec1box1labelleft{
+        display: block;
+        float: left;
+        height: 8mm;
+        width: 9mm;
+        color: black;
+        padding:0mm;
+        padding-top: 0mm;
+    }
+    #taxform1sec1box1labelright{
+        padding-top: 3mm;
+        padding-left:18px;
+    }
+    .taxform1sidetext1{
+        float: left;
+        width: 38px;
+        height: 900px;
+        padding-left: 2.5mm;
+    }
+    .hiddentr{
+        height: 0px;
+        padding: 0px;
+        border-spacing:0px;
+    }
+    .section3rightnum{
+        vertical-align: middle;
+        font-size:9px;
+        color: #CC9999;
+    }
+    .freemarkerdata{
+        font-size:7px;
+        vertical-align: middle;
+        height:13px;
+        width:159px;
+        position:absolute;
+        left:3px;
+        top:1px;
+        letter-spacing:7px;
+    }
+    .jp1_table-3-data-cell-bg {
+        background-image:url(${assets['japan_tax_form_2_table_3_data_cells.jpg']});
+        height:13px;
+        width:155px;
+        position:absolute;
+        left: 2px;
+        padding: 0px;
+        vertical-align: middle;
+    }
+    .j1_dotted-box-data-cell-bg {
+        background-image:url(${assets['japan_tax_form_box_dotted.jpg']});
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .j1_mid-sec-data-cell-bg {
+        background-image:url(${assets['japan_tax_form_mid_sec_data_cells.jpg']});
+        padding: 0mm;
+    }
+    .j1_ref_num-data-cell-bg{
+        background-image:url(${assets['japan_tax_form_2_ref_num_boxes.jpg']});
+    }
+    .dotted_bg_semicircle{
+        background-image:url(${assets['dottedcircle.png']});
+    }
+    .jp_full_circle{
+        background-image:url(${assets['circlewithtext.png']});
+    }
+    .jp_single_square{
+        background-image:url(${assets['single_square.jpg']});
+    }
+    .jp_six_square{
+        background-image:url(${assets['japan_tax_six_boxes.jpg']});
+    }
+    .jp_thirteen_cell{
+        background-image:url(${assets['japan_tax_13_cell.jpg']});
+    }
+    .jp_zerospace{
+        margin: 0;
+        padding:0;
+        border-spacing: 0px;
+    }
+
+    </style>
+</head>

@@ -1,0 +1,483 @@
+<div class="calc-form-loader"></div>
+<div class="calc-form-container" style="width: 860px !important;">
+	<div style="float: left; width: 840px;">
+		<form id="taxform2">
+			<!-- HEADER -->
+			<table style="width:100%">
+				<tr>
+					<td id="taxform2headernote" class="plumish" style="padding-bottom: 5px; padding-left: 25px;letter-spacing: 2px; font-size: 11px;">第３－(2)号様式</td>
+					<td rowspan="2">
+						<table align="right" class="tax-form-table">
+							<tr>
+								<td id="taxform2refnumlabel" style="width: 30px;" class="center smallfont bord-t bord-l bord-b">整理<br/>番号</td>
+								<td id="taxform2refnumbox" style="width: 200px;" class="bord-t bord-l bord-b bord-r"></td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td id="taxform2documenttitle" style="font-weight: bold; font-size: 15px;">課税標準額等の内訳書</td>
+				</tr>
+			</table>
+
+
+			<!-- SECTION 1 -->
+			<div style="width: 415px; float: left;">
+				<table class="tax-form-table" width="100%">
+					<!-- Row 1 -->
+					<tr>
+						<td id="taxform2sec1box1label" rowspan="2" class="deduc-form-row-label  bord-t bord-l" style="width: 90px;">納税地</td>
+						<td class="bord-t bord-l bord-r"></td>
+					</tr>
+					<tr>
+						<td id="taxform2sec1box1vallabel" class="bord-l bord-r" style="text-align: right; padding-right: 15px;font-size: 11px; height: 15px;">(電話番号<span style="padding-left: 60px"></span>-<span style="padding-left: 60px"></span>-<span style="padding-left: 60px"></span>)</td>
+					</tr>
+					<!-- Row 2 -->
+					<tr>
+						<td id="taxform2sec1box2label" rowspan="2" class="deduc-form-row-label bord-t bord-l" style="line-height: 1.3;">(フリガナ)<br/>名<span>称</span><br/>又は屋号</td>
+						<td id="taxform2sec1box2valtop" style="height: 20px;" class="bord-t bord-l bord-r"></td>
+					</tr>
+					<tr>
+						<td id="taxform2sec1box2valbottom" class="bord-t bord-l bord-r" style="height: 40px;"></td>
+					</tr>
+
+					<!-- Row 3 -->
+					<tr>
+						<td id="taxform2sec1box3label" rowspan="2" class="deduc-form-row-label bord-t bord-l bord-b" style="line-height: 1.3;">(フリガナ)<br/>代表者氏<span>名</span><br/>又は氏名</td>
+						<td id="taxform2sec1box3valtop" style="height: 20px;" class="bord-t bord-l bord-r"></td>
+					</tr>
+					<tr>
+						<td id="taxform2sec1box3valbottom" class="bord-t bord-l bord-r bord-b" style="height: 40px; vertical-align: middle;"></td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- SECTION 2 -->
+			<div style="width: 400px; float: right;">
+				<table class="tax-form-table" width="100%">
+					<!-- This row defines column width-->
+					<tr>
+						<td style="height: 0px;"></td>
+						<td style="width: 30px; height: 0px;"></td>
+						<td style="width: 100px; height: 0px;"></td>
+						<td style="width: 15px; height: 0px;"></td>
+					</tr>
+					<tr>
+						<td id="taxform2sec2header" style="letter-spacing: 4px;" colspan="4" class="deduc-form-row-label bord-t bord-l bord-r">改正法附則による税額の特例計算</td>
+					</tr>
+					<tr>
+						<td id="taxform2sec2box1label" class="deduc-form-row-label bord-t bord-l">軽減売上割合（10営業日）</td>
+						<td id="taxform2sec2box1val" class="bord-t bord-l"></td>
+						<td id="taxform2sec2box1provision" class="bord-t bord-l center">附則38①</td>
+						<td id="taxform2sec2box1index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">51</td>
+					</tr>
+					<tr>
+						<td id="taxform2sec2box2label" class="deduc-form-row-label bord-t bord-l">小売等軽減仕入割合</td>
+						<td id="taxform2sec2box2val" class="bord-t bord-l"></td>
+						<td id="taxform2sec2box2provision" class="bord-t bord-l center">附則38②</td>
+						<td id="taxform2sec2box2index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">52</td>
+					</tr>
+					<tr>
+						<td id="taxform2sec2box3label" class="deduc-form-row-label bord-t bord-l bord-b">小売等軽減売上割合</td>
+						<td id="taxform2sec2box3val" class="bord-t bord-l bord-b"></td>
+						<td id="taxform2sec2box3provision" class="bord-t bord-l bord-b center">附則39①</td>
+						<td id="taxform2sec2box3index" class="bord-t bord-l bord-r bord-b deduc-form-row-no smallfont plumish">53</td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- MID SECTION -->
+			<div style="width: 100%; float:left;">
+				<table style="margin: 0 auto; width: 98%; padding-top: 25px;" cellpadding="0" cellspacing="0">
+					<tr>
+						<td>
+							<table class="tax-form-table" width="100%" style="border-spacing: 4px;">
+								<tr>
+									<td id="taxform2midsecbox4label" style="width: 15px" class="plumish">自</td>
+									<td id="taxform2midsecbox5label" style="width: 30px" class="plumish">平成</td>
+									<td style="width: 40px"></td>
+									<td id="taxform2midsecbox6label" style="width: 15px" class="plumish">年</td>
+									<td style="width: 40px"></td>
+									<td id="taxform2midsecbox7label" style="width: 15px" class="plumish">月</td>
+									<td style="width: 40px"></td>
+									<td id="taxform2midsecbox8label" style="width: 15px" class="plumish">日</td>
+								</tr>
+								<tr>
+									<td id="taxform2midsecbox9label" class="plumish">至</td>
+									<td id="taxform2midsecbox10label" class="plumish">平成</td>
+									<td></td>
+									<td id="taxform2midsecbox11label" class="plumish">年</td>
+									<td></td>
+									<td id="taxform2midsecbox12label" class="plumish">月</td>
+									<td></td>
+									<td id="taxform2midsecbox13label" class="plumish">日</td>
+								</tr>
+							</table>
+						</td>
+						<td style="width: 220px">
+							<div id="taxform2midsecbox14label" style="font-size: 14px; font-weight: bold; text-align: center; width: 100%;">課税期間分の消費税及び地方<br/>消費税の<span style="font-weight: bold;">（</span><span style="padding-left:60px"></span>）申告書</div>
+						</td>
+						<td style="width: 350px">
+							<table class="tax-form-table" width="100%" style="border-spacing: 4px; border-left:2px solid; border-right:2px solid; border-radius:15px">
+								<tr>
+									<td rowspan="2" style="width: 10px;font-size: 50px;"></td>
+									<td id="taxform2midsecbox15label" rowspan="2" style="line-height: 1.5;">中間申告<br/>の場合の<br/>対象期間</td>
+									<td id="taxform2midsecbox16label" style="width: 15px;" class="plumish">自</td>
+									<td id="taxform2midsecbox17label" style="width: 30px;" class="plumish">平成</td>
+									<td style="width: 40px"></td>
+									<td id="taxform2midsecbox18label" style="width: 15px;" class="plumish">年</td>
+									<td style="width: 40px"></td>
+									<td id="taxform2midsecbox19label" style="width: 15px;" class="plumish">月</td>
+									<td style="width: 40px"></td>
+									<td id="taxform2midsecbox20label" style="width: 15px;" class="plumish">日</td>
+									<td rowspan="2" style="width: 10px;font-size: 50px;"></td>
+								</tr>
+								<tr>
+									<td id="taxform2midsecbox21label" class="plumish">至</td>
+									<td id="taxform2midsecbox22label" class="plumish">平成</td>
+									<td></td>
+									<td id="taxform2midsecbox23label" class="plumish">年</td>
+									<td></td>
+									<td id="taxform2midsecbox24label" class="plumish">月</td>
+									<td></td>
+									<td id="taxform2midsecbox25label" class="plumish">日</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- SECTION 3 -->
+			<div style="width: 100%; float: left;">
+				<table class="tax-form-table" width="100%">
+					<!-- This row defines column width-->
+					<tr>
+						<td style="width: 30px;"></td>
+						<td style="width: 200px;"></td>
+						<td style="width: 200px;"></td>
+						<td style="width: 20px;"></td>
+						<td></td>
+						<td style="width: 15px;"></td>
+					</tr>
+					<!-- Section 3 Row 1 -->
+					<tr>
+						<td colspan="3" rowspan="2" class="bord-t bord-l bord-b">
+							<table class="tax-form-table" width="100%">
+								<tr>
+									<td id="taxform2sec3box1labeltop" class="deduc-form-row-label" style="padding-left: 20px; padding-right: 20px; height:15px;">課税標準額</td>
+								</tr>
+								<tr>
+									<td id="taxform2sec3box1labelbottom" style="text-align:center; font-size: 11px; height:15px;">※申告書（第一表）の①欄へ</td>
+								</tr>
+							</table>
+						</td>
+						<td id="taxform2sec3box1no" rowspan="2" class="bord-t bord-l bord-b deduc-form-row-no">①</td>
+						<td id="taxform2sec3box1header" colspan="2" class="bord-t bord-l bord-r orangish" style="text-align: center; letter-spacing: 12px;">十兆千百十億千百十万千百十一円</td>
+					</tr>
+					<tr>
+						<td class="bord-t bord-l bord-b">
+							<input type="number" maxlength="14" id="taxform2sec3box1amount" name="taxform2sec3box1amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box1index" class="bord-t bord-l bord-r bord-b deduc-form-row-no smallfont plumish">01</td>
+					</tr>
+					<tr>
+						<td colspan="6"></td>
+					</tr>
+					<!-- Section 3 Row 2 -->
+					<tr>
+						<td rowspan="6" colspan="2" class="bord-t bord-l" style="font-size: 14px;">
+							<div id="taxform2sec3taxableassets" style="margin: 0px auto; width: 100px;" class="deduc-form-row-label">課税資産<span>の</span><br/>譲渡等<span>の</span><br/>対価の<span>額</span><br/>の合計額</div>
+						</td>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box2label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">3</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box2no" class="bord-t bord-l deduc-form-row-no">②</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box2amount" name="taxform2sec3box2amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box2index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">02</td>
+					</tr>
+					<!-- Section 3 Row 3 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box3label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">4</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box3no" class="bord-t bord-l deduc-form-row-no">③</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box3amount" name="taxform2sec3box3amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box3index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">03</td>
+					</tr>
+					<!-- Section 3 Row 4 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box4label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">6.3</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box4no" class="bord-t bord-l deduc-form-row-no">④</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box4amount" name="taxform2sec3box4amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box4index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">04</td>
+					</tr>
+					<!-- Section 3 Row 5 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box5label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">6.24</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box5no" class="bord-t bord-l deduc-form-row-no">⑤</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box5amount" name="taxform2sec3box5amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box5index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">05</td>
+					</tr>
+					<!-- Section 3 Row 6 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box6label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">7.8</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box6no" class="bord-t bord-l deduc-form-row-no">⑥</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box6amount" name="taxform2sec3box6amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box6index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">06</td>
+					</tr>
+					<!-- Section 3 Row 7 -->
+					<tr>
+						<td id="taxform2sec3box7label" class="bord-t"></td>
+						<td id="taxform2sec3box7no" class="bord-t bord-l deduc-form-row-no">⑦</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box7amount" name="taxform2sec3box7amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box7index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">07</td>
+					</tr>
+					<!-- Section 3 Row 8 -->
+					<tr>
+						<td rowspan="3" colspan="2" class="bord-t bord-l bord-b" style="font-size: 14px; vertical-align: middle;">
+							<div id="taxform2sec3consideration" style="margin: 0px auto; width: 100px; padding-top: 5px;" class="deduc-form-row-label">特定課税仕入れ<br/>に係る支払対価<br/>の額の合計額</div>
+							<div id="taxform2sec3note1" style="float:right; margin-right: 8px; margin-bottom: 2px; font-size: 10px;">(注１)</div>
+						</td>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box8label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">6.3</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box8no" class="bord-t bord-l deduc-form-row-no">⑧</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box8amount" name="taxform2sec3box8amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box8index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">11</td>
+					</tr>
+					<!-- Section 3 Row 9 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box9label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">7.8</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box9no" class="bord-t bord-l deduc-form-row-no">⑨</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box9amount" name="taxform2sec3box9amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box9index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">12</td>
+					</tr>
+					<!-- Section 3 Row 10 -->
+					<tr>
+						<td id="taxform2sec3box10label" class="bord-t bord-b"></td>
+						<td id="taxform2sec3box10no" class="bord-t bord-l bord-b deduc-form-row-no">⑩</td>
+						<td class="bord-t bord-l bord-b">
+							<input type="number" maxlength="14" id="taxform2sec3box10amount" name="taxform2sec3box10amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box10index" class="bord-t bord-l bord-r bord-b deduc-form-row-no smallfont plumish">13</td>
+					</tr>
+					<!-- Table Breaker -->
+					<tr>
+						<td colspan="6"></td>
+					</tr>
+					<!-- Section 3 Row 11 -->
+					<tr>
+						<td colspan="3" class="bord-t bord-l">
+							<table class="tax-form-table" width="100%">
+								<tr>
+									<td id="taxform2sec3box11labeltop" class="deduc-form-row-label" style="padding-left: 20px; padding-right: 20px; height:15px;">消費税額</td>
+								</tr>
+								<tr>
+									<td id="taxform2sec3box11labelbottom" style="text-align:center; font-size: 11px; height: 15px;">※申告書（第一表）の②欄へ</td>
+								</tr>
+							</table>
+						</td>
+						<td id="taxform2sec3box11no" class="bord-t bord-l deduc-form-row-no">⑪</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box11amount" name="taxform2sec3box11amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box11index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">21</td>
+					</tr>
+					<!-- Section 3 Row 12 -->
+					<tr>
+						<td id="taxform2sec3translations11" rowspan="5" colspan="2" class="bord-t bord-l bord-b" style="text-align: center; letter-spacing: 10px;">⑪の内訳</td>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box12label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">3</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box12no" class="bord-t bord-l deduc-form-row-no">⑫</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box12amount" name="taxform2sec3box12amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box12index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">22</td>
+					</tr>
+					<!-- Section 3 Row 13 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box13label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">4</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box13no" class="bord-t bord-l deduc-form-row-no">⑬</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box13amount" name="taxform2sec3box13amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box13index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">23</td>
+					</tr>
+					<!-- Section 3 Row 14 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box14label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">6.3</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box14no" class="bord-t bord-l deduc-form-row-no">⑭</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box14amount" name="taxform2sec3box14amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box14index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">24</td>
+					</tr>
+					<!-- Section 3 Row 15 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box15label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">6.24</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box15no" class="bord-t bord-l deduc-form-row-no">⑮</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box15amount" name="taxform2sec3box15amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box15index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">25</td>
+					</tr>
+					<!-- Section 3 Row 16 -->
+					<tr>
+						<td class="bord-t bord-l bord-b" align="right">
+							<table id="taxform2sec3box16label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">7.8</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box16no" class="bord-t bord-l bord-b deduc-form-row-no">⑯</td>
+						<td class="bord-t bord-l bord-b">
+							<input type="number" maxlength="14" id="taxform2sec3box16amount" name="taxform2sec3box16amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box16index" class="bord-t bord-l bord-r bord-b deduc-form-row-no smallfont plumish">26</td>
+					</tr>
+					<!-- Table Breaker -->
+					<tr>
+						<td colspan="6"></td>
+					</tr>
+					<!-- Section 3 Row 17 -->
+					<tr>
+						<td colspan="3" class="bord-t bord-l">
+							<table class="tax-form-table" width="100%">
+								<tr>
+									<td id="taxform2sec3box17labeltop" class="deduc-form-row-label" style="padding-left: 20px; padding-right: 20px; height: 15px;">返還等対価に係る税額</td>
+								</tr>
+								<tr>
+									<td id="taxform2sec3box17labelbottom" style="text-align:center; font-size: 11px;height:15px;">※申告書（第一表）の⑤欄へ</td>
+								</tr>
+							</table>
+						</td>
+						<td id="taxform2sec3box17no" class="bord-t bord-l deduc-form-row-no">⑰</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box17amount" name="taxform2sec3box17amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box17index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">31</td>
+					</tr>
+					<!-- Section 3 Row 18 -->
+					<tr>
+						<td rowspan="2" class="bord-t bord-l bord-b smallfont" style="padding: 2px 7px;">
+							<div id="taxform2sec3translations17" class="vertical-cell smallfont" style="height: 48px;"><div style="float:left">⑰</div><div style="float:left;">の内訳</div></div>
+						</td>
+						<td id="taxform2sec3box18label" colspan="2" class="bord-t bord-l deduc-form-row-label">売上げの返還等対価に係る税額</td>
+						<td id="taxform2sec3box18no" class="bord-t bord-l deduc-form-row-no">⑱</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box18amount" name="taxform2sec3box18amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box18index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">32</td>
+					</tr>
+					<!-- Section 3 Row 19 -->
+					<tr>
+						<td id="taxform2sec3box19label" colspan="2" class="bord-t bord-l bord-b deduc-form-row-label">特定課税仕入れの返還等対価に係る税額(注１)</td>
+						<td id="taxform2sec3box19no" class="bord-t bord-l bord-b deduc-form-row-no">⑲</td>
+						<td class="bord-t bord-l bord-b">
+							<input type="number" maxlength="14" id="taxform2sec3box19amount" name="taxform2sec3box19amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box19index" class="bord-t bord-l bord-r bord-b deduc-form-row-no smallfont plumish">33</td>
+					</tr>
+					<!-- Table Breaker -->
+					<tr>
+						<td colspan="6"></td>
+					</tr>
+
+					<!-- Section 3 Row 20 -->
+					<tr>
+						<td rowspan="4" colspan="2" class="bord-t bord-l bord-b" style="font-size: 14px;">
+							<div id="taxform2sec3localconsumptiontax" style="margin: 0px auto; width: 100px;" class="deduc-form-row-label">地方消費税<span>の</span><br/>課税標準となる<br/>消費税額</div>
+							<div id="taxform2sec3note2" style="float:right; margin-right: 8px; margin-bottom: 2px; font-size: 10px; position: relative; bottom:-20px;">(注２)</div>
+						</td>
+						<td id="taxform2sec3box20label" class="bord-t"></td>
+						<td id="taxform2sec3box20no" class="bord-t bord-l deduc-form-row-no">⑳</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box20amount" name="taxform2sec3box20amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box20index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">41</td>
+					</tr>
+					<!-- Section 3 Row 21 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box21label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">4</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box21no" class="bord-t bord-l deduc-form-row-no">㉑</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box21amount" name="taxform2sec3box21amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box21index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">42</td>
+					</tr>
+					<!-- Section 3 Row 22 -->
+					<tr>
+						<td class="bord-t bord-l" align="right">
+							<table id="taxform2sec3box22label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center" width="25px">6.3</td><td style="padding: 0px 20px 0px 30px">%</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box22no" class="bord-t bord-l deduc-form-row-no">㉒</td>
+						<td class="bord-t bord-l">
+							<input type="number" maxlength="14" id="taxform2sec3box22amount" name="taxform2sec3box22amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box22index" class="bord-t bord-l bord-r deduc-form-row-no smallfont plumish">43</td>
+					</tr>
+					<!-- Section 3 Row 23 -->
+					<tr>
+						<td class="bord-t bord-l bord-b" align="right">
+							<table id="taxform2sec3box23label" class="tax-form-table" cellpadding="0" cellspacing="0"><tr><td class="center">6.24％及び7.8</td><td style="padding: 0px 20px 0px 0px">％</td><td style="letter-spacing: 4px;">適用分</td></tr></table>
+						</td>
+						<td id="taxform2sec3box23no" class="bord-t bord-l bord-b deduc-form-row-no">㉓</td>
+						<td class="bord-t bord-l bord-b">
+							<input type="number" maxlength="14" id="taxform2sec3box23amount" name="taxform2sec3box23amount" class="deduc-form-field-readonly" readonly/>
+						</td>
+						<td id="taxform2sec3box23index" class="bord-t bord-l bord-r bord-b deduc-form-row-no smallfont plumish">44</td>
+					</tr>
+				</table>
+			</div>
+
+			<!-- FOOTER -->
+			<div style="width: 100%; float:left;">
+				<table class="plumish smallfont" style="padding-left: 10px;">
+					<tr>
+						<td id="taxform2footernote1">(注１)</td>
+						<td id="taxform2footerval1">⑧～⑩及び⑲欄は、一般課税により申告する場合で、課税売上割合が95%未満、かつ、特定課税仕入れがある事業者のみ記載します。</td>
+					</tr>
+					<tr>
+						<td id="taxform2footernote2">(注２)</td>
+						<td id="taxform2footerval2">⑳～㉓欄が還付税額となる場合はマイナス「－」を付してください。</td>
+					</tr>
+				</table>
+			</div>
+		</form>
+	</div>
+	<div style="width: 20px;float: left; position: relative; top: 55px; padding-left: 8px; height: 600px;">
+		<div id="taxform2sidetext1" class="vertical-cell" style="height: 80px; font-size: 20px; font-weight: bold;">第二表</div>
+		<div id="taxform2sidetext2" class="vertical-cell plumish" style="height: 500px; letter-spacing: 5px; font-size: 14px;">平成三十一年十月一日以後終了課税期間分</div>
+	</div>
+</div>

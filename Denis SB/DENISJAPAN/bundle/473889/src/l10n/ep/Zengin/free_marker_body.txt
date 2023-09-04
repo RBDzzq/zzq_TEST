@@ -1,0 +1,32 @@
+<#-- format specific processing -->
+<#function getAccountType acctType>
+    <#assign value = "0">
+		<#if acctType == "Ordinary" || acctType == "普通">
+			<#assign value = "1" >
+		<#elseif acctType == "Check" || acctType == "当座">
+			<#assign value = "2" >
+		<#elseif acctType == "Saving" || acctType == "貯蓄">
+			<#assign value = "4" >
+		<#elseif acctType == "Other" || acctType == "その他">
+			<#assign value = "9" >
+		</#if>
+    <#return value>
+</#function>
+
+<#-- cached / dynamic values -->
+<#assign totalLines = 0>
+<#assign totalAmt = 0>
+
+<#-- template building -->
+
+#OUTPUT START#
+1210${setPadding(cbank.custpage_eft_custrecord_2663_bank_comp_id,"left","0",10)}${setLength(cbank.custrecord_2663_legal_name,40)}${setLength(pfa.custrecord_2663_process_date?string("MMdd"),4)}${setLength(cbank.custpage_eft_custrecord_2663_bank_num,4)}${setLength(cbank.custpage_eft_custrecord_2663_bank_name,15)}${setLength(cbank.custpage_eft_custrecord_2663_branch_num,3)}${setLength(cbank.custpage_eft_custrecord_2663_branch_name,15)}${getAccountType(cbank.custpage_eft_custrecord_2663_bank_acct_type2)}${setPadding(cbank.custpage_eft_custrecord_2663_acct_num,"left","0",7)}${setLength("",17)}
+<#list payments as payment>
+    <#assign ebank = ebanks[payment_index]>
+    <#assign totalLines = totalLines + 1 >
+    <#assign totalAmt = totalAmt + formatAmount(getAmountWithBankFee(payment),"truncDec")?number>
+2${setLength(ebank.custrecord_2663_entity_bank_no,4)}${setLength(ebank.custrecord_2663_entity_bank_name,15)}${setLength(ebank.custrecord_2663_entity_branch_no,3)}${setLength(ebank.custrecord_2663_entity_branch_name,15)}${setLength("",4)}${setLength(getAccountType(ebank.custrecord_2663_acct_type),1)}${setPadding(ebank.custrecord_2663_entity_acct_no,"left","0",7)}${setLength(ebank.custrecord_2663_entity_acct_name,30)}${setPadding(formatAmount(getAmountWithBankFee(payment),"truncDec"),"left","0",10)}1${setLength(ebank.custrecord_2663_customer_code,20)} ${setLength(ebank.custrecord_2663_edi_value,1)}${setLength("",7)}
+</#list>
+8${setPadding(totalLines?c,"left","0",6)}${setPadding(formatAmount(totalAmt,"truncDec"),"left","0",12)}${setLength("",101)}
+9${setLength("",119)}<#rt>
+#OUTPUT END#

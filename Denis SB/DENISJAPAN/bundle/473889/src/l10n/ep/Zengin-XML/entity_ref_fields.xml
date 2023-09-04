@@ -1,0 +1,10 @@
+<refFields type="Zengin XML">
+   <refField id="custrecord_2663_entity_bank_type" label="Type" mandatory="true" helptext="Select whether the bank account is the vendor's/employee's/ customer's primary or secondary bank account."/>
+   <refField id="custrecord_2663_entity_acct_no" label="Bank Account Number" mandatory="true" helptext="Enter the vendor's/employee's/customer's bank account number."/>
+   <refField id="custrecord_2663_entity_acct_name" label="Bank Account Name" mandatory="false" helptext="Enter the vendor's/employee's/customer's bank account name."/>
+   <refField id="custrecord_2663_entity_bank_no" label="Bank Number" mandatory="true" helptext="Enter the code used to identify the vendor's/employee's/customer's bank within the banking industry."/>
+   <refField id="custrecord_2663_entity_bank_name" label="Bank Name" mandatory="false" helptext="Enter the name of the vendor's/employee's/customer's bank."/>
+   <refField id="custrecord_2663_entity_branch_no" label="Branch Number" mandatory="true" helptext="Enter the code that identifies the bank branch where the vendor's/employee's/customer's account is maintained."/>
+   <refField id="custrecord_2663_entity_branch_name" label="Branch Name" mandatory="false" helptext="Enter the name of the bank branch where the vendor's/employee's/customer's bank account is maintained."/>
+   <refField id="custrecord_2663_acct_type" label="Account Type" mandatory="true" helptext="Select whether your bank account is an ordinary or checking account."/>
+</refFields>

@@ -1,0 +1,696 @@
+<#setting date_format="yyyy/MM/dd">
+<table style="table-layout:fixed; font-family: HeiseiMin; width: 100%;">
+  <thead>
+    <tr>
+      <td colspan="13">
+        <table>
+          <tr>
+            <td align="left" width="350px" style="font-size: 17pt; font-weight: bold; vertical-align: bottom;">
+              {ids.label.doc_title}
+            </td>
+            <td align="right" width="350px" style="font-size: 12pt; font-weight: bold; vertical-align: bottom;">
+              {ids.label.invoice_number}: ${ids.tranid}
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="13" height="10px"></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="11">
+        <table width="700px" style="table-layout:fixed;">
+          <tr>
+            <td style="vertical-align: top;">
+              <table>
+                <tr>
+                  <td>
+                    <!-- <img src="image logo from the File Cabinet" height="40" width="200" /> -->
+                  </td>
+                </tr>
+                <tr>
+                  <td style="font-size: 13pt; font-weight: bold;">
+                    ${companyInformation.companyname}
+                  </td>
+                </tr>
+                <tr>
+                   <td>
+                      {ids.label.tax_reg_number}:
+                      <#if subsidiary??>
+                        ${subsidiary.custrecord_jp_loc_tax_reg_number}
+                      <#else>
+                        ${companyInformation.custrecord_jp_loc_tax_reg_number}
+                      </#if>
+                   </td>
+                </tr>
+                <tr>
+                  <td>
+                    ${companyInformation.mainaddress_text}
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    {ids.label.phone}: ${companyInformation.phone}
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+            <td style="vertical-align: top;">
+              <table cellspacing="0" width="320px">
+                <tr>
+                  <td colspan="2" style="padding-left:10px; font-size: 13pt; font-weight: bold; border: 1px solid; background-color: #dddddd">
+                    {ids.label.bank_account_info}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; padding-left:10px;">
+                    {ids.label.bank_account_name}
+                  </td>
+                  <td style="border-right: 1px solid; ">
+                    <!--  -->
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; padding-left:10px;">
+                    {ids.label.bank_account_number}
+                  </td>
+                  <td style="border-right: 1px solid;">
+                    <!--  -->
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; padding-left:10px;">
+                    {ids.label.swift_code}
+                  </td>
+                  <td style="border-right: 1px solid;">
+                    <!--  -->
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; padding-left:10px;">
+                    {ids.label.bank_name}
+                  </td>
+                  <td style="border-right: 1px solid;">
+                    <!--  -->
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; border-bottom: 1px solid; padding-left:10px;">
+                    {ids.label.bank_address}
+                  </td>
+                  <td style="border-right: 1px solid; border-bottom: 1px solid;">
+                    <!--  -->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td width="50%" style="vertical-align: top;">
+              <table style="table-layout:fixed;" width="100%">
+                <tr>
+                  <td style="font-size: 13pt; font-weight: bold;">
+                    {ids.label.bill_to}:
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <#if customer.isperson == "T">
+                      <b>${customer.salutation} ${customer.firstname} ${customer.middlename} ${customer.lastname}</b>
+                    <#else>
+                      <b>${customer.companyname}</b>
+                    </#if>
+                    <br/>
+                    ${customer.defaultaddress}
+                  </td>
+                </tr>
+              </table>
+            </td>
+            <td width="50%" style="vertical-align: top;">
+              <table cellspacing="0" width="320px">
+                <tr>
+                  <td colspan="2" style="padding-left:10px; font-size: 13pt; font-weight: bold; border: 1px solid; background-color: #dddddd">
+                    {ids.label.inv_sum_details}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; padding-left:10px;">
+                    {ids.label.invoice_number}
+                  </td>
+                  <td style="border-right: 1px solid; ">
+                    ${ids.tranid}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; padding-left:10px;">
+                    {ids.label.invoice_date}
+                  </td>
+                  <td style="border-right: 1px solid;">
+                    ${ids.trandate}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; padding-left:10px;">
+                    {ids.label.billing_period}
+                  </td>
+                  <td style="border-right: 1px solid;">
+                    <#assign startDate = '${ids.custbody_suitel10n_jp_ids_start_date}'>
+                    ${startDate} - ${ids.custbody_suitel10n_jp_ids_cd}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; border-right: 1px solid;" colspan="2">
+                    &nbsp;
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left" style="border-left: 1px solid; padding-right:5px; font-weight: bold; padding-left:15px;">
+                    {ids.label.payment_due_date}
+                  </td>
+                  <td align="right" style="border-right: 1px solid; padding-right:5px; font-weight: bold; padding-left:15px;">
+                    {ids.label.net_invoice}
+                  </td>
+                </tr>
+                <tr>
+                <#if netinvoicesummarylist.transactions?has_content>
+                    <#assign dueDateGroup = "">
+                    <#assign counter = 0>
+
+                    <#list netinvoicesummarylist.transactions as netinvoicesummary>
+
+                    <#if (counter == 0)>
+                    <!-- FIRST search result row -->
+                    <#assign dueDateGroup = netinvoicesummary.formuladate?string>
+                    <#elseif (counter == netinvoicesummarylist.transactions?size - 1)>
+                    <!-- LAST search result row -->
+
+                    <#if dueDateGroup != netinvoicesummary.formuladate?string>
+                    <!-- Search result row with DIFFERENT due date as the previous row -->
+                    <#assign dueDateGroup = netinvoicesummary.formuladate?string>
+                </#if>
+                  <#else>
+                  <!-- MIDDLE search row -->
+                  <#if dueDateGroup != netinvoicesummary.formuladate?string>
+                  <!-- Search result row with DIFFERENT due date as the previous row -->
+                  <#assign dueDateGroup = netinvoicesummary.formuladate?string>
+              </#if>
+            </#if>
+
+           <#assign counter = counter + 1>
+        </#list>
+        </#if>
+                  <td align="left" style="border-left: 1px solid; padding-right:5px; padding-left:15px;">
+                    ${dueDateGroup}
+                  </td>
+                  <td align="right" style="border-right: 1px solid; padding-right:5px; padding-right:15px;">
+                      ${ids.custbody_suitel10n_jp_ids_net_invoice?string["#,##0.00"]}
+                  </td>
+                </tr>
+
+                <!-- END DUEDATE LOOP -->
+                <tr>
+                                    <td align="center" style="border-left: 1px solid; border-right: 1px solid; font-size: 8pt; font-weight: bold; padding-right:5px;" colspan="2">
+                                        {ids.label.invoice_details_note}
+                                    </td>
+                                </tr>
+                <tr>
+                  <td style="border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;" colspan="2">
+                    &nbsp;
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <table width="675px" cellspacing="0">
+          <tr>
+            <td colspan="8" height="50px" style="vertical-align: top;">
+              {ids.label.review_details}
+            </td >
+          </tr>
+          <tr>
+            <td colspan="8" style="padding-left:5px; font-size: 13pt; font-weight: bold; text-align: left; border: 1px solid; background-color: #dddddd;">
+              {ids.label.summary}
+            </td>
+          </tr>
+          <tr>
+            <th width="13%" align="center" style="vertical-align: top; font-weight: bold; border-bottom: 1px solid; border-right: 1px solid; border-left: 1px solid">
+              {ids.label.prev_balance}
+            </th>
+            <th width="12%" align="center" style="vertical-align: top; font-weight: bold; border-bottom: 1px solid; border-right: 1px solid">
+              {ids.label.payment}
+            </th>
+            <th width="13%" align="center" style="vertical-align: top; font-weight: bold; border-bottom: 1px solid; border-right: 1px solid">
+              {ids.label.balance_forward}
+            </th>
+            <th width="12%" align="center" style="vertical-align: top; font-weight: bold; border-bottom: 1px solid; border-right: 1px solid">
+              {ids.label.total_sales}
+            </th>
+            <th width="13%" align="center" style="vertical-align: top; font-weight: bold; border-bottom: 1px solid; border-right: 1px solid">
+              {ids.label.total_credits}
+            </th>
+            <th width="12%" align="center" style="vertical-align: top; font-weight: bold; border-bottom: 1px solid; border-right: 1px solid">
+              {ids.label.total_tax}
+            </th>
+            <th width="13%" align="center" style="vertical-align: top; font-weight: bold; border-bottom: 1px solid; border-right: 1px solid">
+              {ids.label.total}
+            </th>
+            <th width="12%" align="center" style="border-bottom: 1px solid; font-weight: bold; border-right: 1px solid; text-justify: auto">
+              {ids.label.total_amount_due}
+            </th>
+          </tr>
+          <tr>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-left: 1px solid; border-right: 1px solid;">
+              ${ids.custbody_suitel10n_jp_ids_total_prev_p?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-right: 1px solid">
+              ${ids.custbody_suitel10n_jp_ids_prd_payment?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-right: 1px solid">
+              ${ids.custbody_suitel10n_jp_ids_balance_fwd?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-right: 1px solid">
+              ${ids.custbody_suitel10n_jp_ids_total_sales?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-right: 1px solid">
+              ${ids.custbody_suitel10n_jp_ids_total_return?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-right: 1px solid">
+                <#if taxDetails.useITL == 'T'>
+                    ${taxdetails.totalTax?number?string["#,##0.00"]}
+                <#else>
+                    ${ids.custbody_suitel10n_jp_ids_total_tax?string["#,##0.00"]}
+                </#if>
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-right: 1px solid">
+                ${ids.custbody_suitel10n_jp_ids_net_invoice?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid; border-right: 1px solid">
+                ${ids.custbody_suitel10n_jp_ids_net_total?string["#,##0.00"]}
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="2" height="5px"></td>
+    </tr>
+
+    <!-- PAYMENT DETAIL Columns Start -->
+    <tr>
+      <td colspan="13" style="padding-left:5px; font-size: 13pt; font-weight: bold; text-align: left; border: 1px solid; background-color: #dddddd;">
+        {ids.label.payment_details_title}
+      </td >
+      </tr>
+      <tr>
+      <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_date}
+      </td>
+      <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_no}
+      </td>
+      <td colspan="2" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_id}
+      </td>
+      <td colspan="3" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_details}
+      </td>
+      <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_currency}
+      </td>
+      <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_exchangerate}
+      </td>
+      <td colspan="2" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_fxamount}
+      </td>
+      <td colspan="2" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.payment_amount}
+      </td>
+    </tr>
+    <!-- END PAYMENT DETAIL Columns -->
+    <!-- PAYMENT DETAIL Rows-->
+    <#if paymentdetails?has_content>
+    <#list paymentdetails as paymentdetail>
+    <tr>
+      <td align="left" style="border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+        <#assign tranDate = '${paymentdetail.trandate}'>
+        ${tranDate?replace("\"", "")}
+      </td>
+      <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        ${paymentdetail.transactionnumber}
+      </td>
+      <td colspan="2" align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        ${paymentdetail.tranid}
+      </td>
+      <td colspan="3" align="left" style="border-right: 1px solid; border-bottom: 1px solid;">
+        ${paymentdetail.custbody_suitel10n_jp_paydetails}
+      </td>
+      <td align="left" style="border-right: 1px solid; border-bottom: 1px solid;">
+        ${paymentdetail.currency}
+      </td>
+      <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        ${paymentdetail.exchangerate?string["#,##0.00"]}
+      </td>
+      <td colspan="2" align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        ${paymentdetail.formulacurrency_fxamount?string["#,##0.00"]}
+      </td>
+      <td colspan="2" align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        ${paymentdetail.formulacurrency_netamount?string["#,##0.00"]}
+      </td>
+    </tr>
+    </#list>
+    <#else>
+    <!-- PAYMENT DETAIL Empty -->
+    <tr>
+      <td colspan="13"  style="border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.empty_payment_details}
+      </td>
+    </tr>
+    </#if>
+    <!-- PAYMENT DETAILS rows-->
+
+    <tr>
+      <td colspan="2" height="5px"></td>
+    </tr>
+
+    <tr>
+      <td colspan="13" style="padding-left:5px; font-size: 13pt; font-weight: bold; text-align: left; border: 1px solid; background-color: #dddddd;">
+        {ids.label.tran_details}
+      </td >
+    </tr>
+    <!-- TRANSACTION DETAIL ROWS Start -->
+    <tr>
+      <#if taxDetails.useITL == 'T'> <!-- APPLY INVOICE SUMMARY TAX ADJUSTMENT = T -->
+          <td align="center" colspan="1" style="font-weight: bold; text-align: center;vertical-align:top; border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+	           {ids.label.tran_date}
+          </td>
+          <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+	           {ids.label.tran_no}
+          </td>
+          <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+	           {ids.label.item_code}
+          </td>
+          <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+	            {ids.label.item_quantity}
+          </td>
+          <td align="center" style="font-weight: bold; vertical-align: top;border-right: 1px solid; border-bottom: 1px solid;">
+	            {ids.label.currency}
+          </td>
+          <td align="center" style="font-weight: bold; vertical-align: top;border-right: 1px solid; border-bottom: 1px solid;">
+	            {ids.label.exchange_rate}
+          </td>
+          <td align="center" style="font-weight: bold; vertical-align: top;border-right: 1px solid; border-bottom: 1px solid;">
+	            {ids.label.foreign_amount}
+          </td>
+          <td align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+	           {ids.label.item_price}
+          </td>
+          <td align="center" colspan="2" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+	            {ISTEMPLATE_TAXCODERATE}
+          </td>
+          <td align="center"  colspan="3" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+	            {ids.label.line_amount}
+          </td>
+
+      <#else> <!-- APPLY INVOICE SUMMARY TAX ADJUSTMENT = F -->
+
+         <td align="center" style="font-weight: bold; vertical-align: top; border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.tran_date}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.tran_no}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.tran_id}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.item_code}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.item_quantity}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.currency}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.exchange_rate}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.foreign_amount}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.item_price}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.line_amount}
+         </td>
+         <td align="center" style="font-weight: bold; text-align: center; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.tax_code}
+         </td>
+         <td align="center" style="font-weight: bold; text-align: center; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.tax_rate}
+         </td>
+         <td align="center" style="font-weight: bold; vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+            {ids.label.line_due_date}
+         </td>
+
+      </#if>
+    </tr>
+
+    <!-- TRANSACTION LINE LOOP Start -->
+    <#assign current_id = "">
+    <#assign tran_num = "">
+    <#if transactionlist?has_content>
+    <#list transactionlist as transaction>
+    <tr>
+        <#if taxDetails.useITL == 'T'> <!-- APPLY INVOICE SUMMARY TAX ADJUSTMENT = T -->
+            <td align="left" colspan='1'  style="border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Transaction Date -->
+                <#if transaction.recordtype=="creditmemo" && transaction.customer.custentity_jp_taxinvchckbox>
+                    <#assign tranDate = '${transaction.custcol_jp_inv_date}'>
+                    <#if transaction.custcol_jp_inv_date == ''>
+                        <#assign tranDate = '${transaction.trandate}'>
+                    </#if>
+                <#else>
+                    <#assign tranDate = '${transaction.trandate}'>
+                </#if>
+				        ${tranDate?replace("\"", "")}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Transaction Number -->
+                ${transaction.transactionnumber}
+            </td>
+            <td align="left" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Item Code -->
+                <#if transaction.recordtype="salesorder">
+                    <!-- This is used due to a freemarker + netsuite limitation -->
+                    ${transaction.formulatext}
+                <#else>
+                    ${transaction.item}
+                </#if>
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Item Quantity -->
+                ${transaction.quantity}
+            </td>
+            <td align="left" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Currency -->
+                ${transaction.currency}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Exchange Rate -->
+                ${transaction.exchangerate?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Foreign Amount -->
+                ${transaction.fxamount?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Item Price -->
+                ${transaction.rate?string["#,##0.00"]}
+            </td>
+            <td align="right" colspan="2" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Tax Rate -->
+                ${transaction.taxitem.rate}
+            </td>
+            <td align="right" colspan="3" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Amount -->
+                ${transaction.formulacurrency?string["#,##0.00"]}
+            </td>
+
+        <#else> <!-- START APPLY INVOICE SUMMARY TAX ADJUSTMENT = F -->
+            <td align="left"  style="border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Transaction Date -->
+                <#if transaction.recordtype=="creditmemo" && transaction.customer.custentity_jp_taxinvchckbox>
+                    <#assign tranDate = '${transaction.custcol_jp_inv_date}'>
+                    <#if transaction.custcol_jp_inv_date == ''>
+                        <#assign tranDate = '${transaction.trandate}'>
+                    </#if>
+                <#else>
+                    <#assign tranDate = '${transaction.trandate}'>
+                </#if>
+				        ${tranDate?replace("\"", "")}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Transaction Number -->
+                ${transaction.transactionnumber}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Transaction ID -->
+                ${transaction.tranid}
+            </td>
+            <td align="left" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Item Code -->
+                <#if transaction.recordtype="salesorder">
+                    <!-- This is used due to a freemarker + netsuite limitation -->
+                    ${transaction.formulatext}
+                <#else>
+                    ${transaction.item}
+                </#if>
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Item Quantity -->
+                ${transaction.quantity}
+            </td>
+            <td align="left" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Currency -->
+                ${transaction.currency}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Exchange Rate -->
+                ${transaction.exchangerate?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Foreign Amount -->
+                ${transaction.fxamount?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Item Price -->
+                ${transaction.rate?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Amount -->
+                ${transaction.formulacurrency?string["#,##0.00"]}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Tax Code -->
+                ${transaction.taxitem.name}
+            </td>
+            <td align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Tax Rate -->
+                ${transaction.taxitem.rate}
+            </td>
+            <td align="left" style="border-right: 1px solid; border-bottom: 1px solid;">
+                <!-- Due Date -->
+                <#if transaction.recordtype="creditmemo">
+                    <#assign dueDate = '${transaction.custbody_jp_invoice_summary_due_date}'>
+                <#else>
+                    <#assign dueDate = '${transaction.duedate}'>
+                </#if>
+                ${dueDate?replace("\"", "")}
+            </td>
+
+        </#if> <!-- END APPLY INVOICE SUMMARY TAX ADJUSTMENT = F -->
+
+
+    </tr>
+    </#list>
+    <#else>
+    <!-- TRANSACTION DETAILS Empty -->
+    <tr>
+      <td colspan="13"  style="border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+        &nbsp;
+      </td>
+    </tr>
+    </#if>
+    <!-- TRANSACTION LINE LOOP End -->
+    <!-- TRANSACTION DETAIL ROWS End -->
+    <tr>
+      <td colspan="2" height="4px"></td>
+    </tr>
+    <!-- TAX DETAIL Title -->
+    <tr>
+      <td colspan="5"></td>
+      <td colspan="8" style="padding-left:5px; font-size: 13pt; font-weight: bold; text-align: left; border: 1px solid; background-color: #dddddd;">
+        {ids.label.tax_details}
+      </td >
+    </tr>
+    <!-- TAX DETAIL Columns Start -->
+    <tr>
+      <td colspan="5"></td>
+      <td colspan="2" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.tax_code}
+      </td>
+      <td colspan="2" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.tax_rate}
+      </td>
+      <td colspan="2" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.total_net_amount}
+      </td>
+      <td colspan="2" align="center" style="font-weight: bold; text-align: center;vertical-align: top; border-right: 1px solid; border-bottom: 1px solid;">
+        {ids.label.total_tax_details}
+      </td>
+    </tr>
+    <!-- END TAX DETAIL Columns -->
+    <!-- TAX DETAILs rows-->
+    <#if taxdetails.details?has_content>
+    <#list taxdetails.details as taxdetail>
+    <tr>
+      <td colspan="5"></td>
+      <td colspan="2" align="left" style="border-left: 1px solid; border-right: 1px solid; border-bottom: 1px solid;">
+        <!-- Tax Code -->
+        ${taxdetail.name}
+      </td>
+      <td colspan="2" align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        <!-- Tax Rate -->
+        ${taxdetail.rate}%
+      </td>
+      <td colspan="2" align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        <!-- Total Net Amount -->
+        ${taxdetail.netamountnotax?number?string["#,##0.00"]}
+      </td>
+      <td colspan="2" align="right" style="border-right: 1px solid; border-bottom: 1px solid;">
+        <!-- Total Net Amount -->
+        ${taxdetail.taxamount?number?string["#,##0.00"]}
+      </td>
+    </tr>
+    </#list>
+    <tr>
+       <td colspan="5"></td>
+       <td colspan="8" align="left" style="letter-spacing: normal; font-size: 8pt; font-style:italic;">
+            <#if customer.custentity_jp_taxinvchckbox>
+                {TIL_IS_FOOTNOTE}
+            </#if>
+        </td>
+    </tr>
+    </#if>
+    <!-- TAX DETAILs rows-->
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="12">
+        <table width="182mm">
+          <tr>
+            <td width="150mm" align="right">
+              {ids.label.page_number}
+            </td>
+            <td width="15mm" align="right" style="margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; margin-bottom: 0pt;">
+              <pagenumber />
+            </td>
+            <td width="17mm"  align="left" style="margin-left: 0pt; margin-right: 0pt; margin-top: 0pt; margin-bottom: 0pt;">
+              /
+              <pagenumber idref="${ids.id}" />
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+<p id="${ids.id}" />

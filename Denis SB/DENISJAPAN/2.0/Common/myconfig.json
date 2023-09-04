@@ -1,0 +1,9 @@
+{
+  "paths": {
+    "me": "/SuiteScripts/DENISJAPAN/2.0/Common/me",
+    "lib": "/SuiteScripts/DENISJAPAN/2.0/Common/lib",
+    "underscore": "/SuiteScripts/DENISJAPAN/2.0/Common/underscore",
+    "underscore_s": "/SuiteScripts/DENISJAPAN/2.0/Common/underscore.string",
+    "moment": "/SuiteScripts/DENISJAPAN/2.0/Common/moment"
+  }
+}

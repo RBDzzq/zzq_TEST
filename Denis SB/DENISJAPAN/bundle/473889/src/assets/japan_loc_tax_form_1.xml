@@ -1,0 +1,922 @@
+
+<p> <!--important if removed the layout would break -->
+<div style="position: relative; width:626px; height:700px; float:left; padding:0px;" class="">
+    <p>
+        <span id="taxform1headernote" class="plumish" style="line-height:24px; letter-spacing: 2px; font-size:8px; padding:0xp;">第３－(1)号様式<br/></span>
+        <!-- SECTION 1 -->
+        <div style="width: 300px; float: left; clear:left;" class="">
+            <table class="form1table" width="100%" style="height:125px;">
+                <tr>
+                    <td class="bord-t bord-l" style="width:80px;">
+                        <span id="taxform1sec1box1labelleft" class="" style="font-size: 9px; width:90px;">平<span style="letter-spacing:6px">成年月日</span>
+                        </span>
+                        <!--<div class="half-circle" style="left: 67px; top: 8px; position: relative;">-->
+                        <div style="width:30px; height:12px; position:absolute; top:11px; left:62px;" class="dotted_bg_semicircle"></div>
+                        <div id="taxform1sec1box1labelbottom" style="position: absolute; top: 13px; left:69px; font-size: 6px; padding:0px; line-height:1px;"><p>収受印</p></div>
+                        <!--</div>-->
+                    </td>
+                    <td id="taxform1sec1box1labelright" class="bord-t bord-r vcenter" ><span style="padding-left:136px;">税務署長殿</span></td>
+                </tr>
+                <!-- Row 1 -->
+                <tr>
+                    <td id="taxform1sec1box2label" rowspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:21px;">納税地</td>
+                    <td class="bord-t bord-l bord-r">&#xA0;</td>
+                </tr>
+                <tr>
+                    <td id="taxform1sec1box6label" class="bord-l bord-r" style="padding-left:37px; font-size:8px;">(電話番<span style="letter-spacing: 33px">号--)</span></td>
+                </tr>
+                <!-- Row 2 -->
+                <tr>
+                    <td id="taxform1sec1box3label" rowspan="1" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="line-height:12px;">
+                        <span style="letter-spacing:5px;">(フリガナ)</span><br/><span style="letter-spacing:53px;">名称</span><br/><span style="letter-spacing:12px;">又は屋号</span>
+                    </td>
+                    <td id="taxform1sec1box7" style="height: 25px; padding:0px;" class="bord-t bord-l bord-r">
+                        <div id="taxform1sec1box8" style="width:100%; padding:0px; height:12px; position:absolute; top:0px; left:0px;" class="bord-b"></div>
+                    </td>
+                </tr>
+                <!-- Row 3 -->
+                <tr style="height: 38px;" class="jp_zerospace">
+                    <td id="taxform1sec1box4label" rowspan="1" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="line-height: 12px;">
+                        <span style="letter-spacing:11px;">個人番号</span><br/><span style="letter-spacing:3px;">又は法人番号</span>
+                    </td>
+                    <td id="taxform1sec1box9label" style="height: 38px; font-size: 5px;" class="bord-t bord-l bord-r jp_zerospace">
+                        <div style="width:100%; padding:0px; height:12px; position:absolute; top:0px; left:0px; padding-left:30px;" class="bord-b"><span>↓ 個人番号の記載に当たっては、左端を空欄とし、ここから記載してください。</span></div>
+                        <div id="taxform1sec1box10" style="width:170px; height:15px; position:absolute; top:19px; left:5px;" class="jp_thirteen_cell"></div>
+                    </td>
+                </tr>
+                <!-- Row 4 -->
+                <tr>
+                    <td id="taxform1sec1box5label" rowspan="2" class="jp1_deduc-form-row-label bord-t bord-l bord-b" style="line-height:14px;">
+                        <span style="letter-spacing:6px;">(フリガナ)</span><br/><span style="letter-spacing:6px;">代表者氏名<br/></span>
+                        <span style="letter-spacing:11px;">又は氏名</span>
+                    </td>
+                    <td id="taxform1sec1box11" style="height: 5px; padding:0px;" class="bord-t bord-l bord-r">
+                        <div style="width:100%; padding:0px; height:12px; position:absolute; top:0px; left:0px;" class="bord-b"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="bord-l bord-r bord-b" style="height: 10px;">
+                        <div style="width:19px; height:18px; position:absolute; top:-5px; left:190px;" class="jp_full_circle"></div>
+                        <p id="taxform1sec1box12label" style="position:absolute; top:0px; left:193px;">印</p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SECTION 2 -->
+        <div style="width: 312px; float: left; margin-left:3px;">
+            <table cellpadding="0" cellspacing="0" width="100%" style="height:60px;" class="form1table">
+                <!-- This row defines column width-->
+                <tr class="hiddentr">
+                    <td style="width: 20px;"></td>
+                    <td></td>
+                </tr>
+                <!-- Row 1 -->
+                <tr>
+                    <td rowspan="8" id="taxform1sec2box1abel" class="bord-l bord-t bord-b vcenter" style="line-height:20px; font-size: 10px;">
+                        <div style="padding-left:4px; vcenter"><span>※<br/>税<br/>務<br/>署<br/>処<br/>理<br/>欄</span></div>
+                    </td>
+                    <td>
+                        <table class="form1table" width="100%">
+                            <tr>
+                                <td id="taxform1sec2box2label" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="width:120px; letter-spacing:24px;">一連番号</td>
+                                <td id="taxform1sec2box3" class="bord-t bord-l" style="width:50px;"></td>
+                                <td class="bord-l"></td>
+                                <td id="taxform1sec2box4label" class="jp1_deduc-form-row-label bord-t bord-l" style="font-size:7px; width:40px; letter-spacing: 2px;">翌年以降<br/>送付不要</td>
+                                <td id="taxform1sec2box5" class="bord-t bord-l bord-r j1_dotted-box-data-cell-bg" style="width:25px;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Row 2 -->
+                <tr>
+                    <td>
+                        <table class="form1table" width="100%">
+                            <tr>
+                                <td id="taxform1sec2box6label" class="bord-t bord-l jpsmallerfont vcenter" style="width:12px; padding:0px; padding-left:1px;">所<br/>管</td>
+                                <td id="taxform1sec2box7" class="bord-t bord-l" style="width:36px;"></td>
+                                <td id="taxform1sec2box8label" class="bord-t bord-l jpsmallerfont vcenter" style="width:12px; padding:0px; padding-left:1px;">要<br/>否</td>
+                                <td id="taxform1sec2box9" class="bord-t bord-l" style="width:30px;"></td>
+                                <td id="taxform1sec2box10label" class="bord-t bord-l jpsmallerfont vcenter" style="width:30px; letter-spacing: 2px; padding-left:5px;">整理<br/>番号</td>
+                                <td id="taxform1sec2box11" class="bord-t bord-l bord-r"><div style="width:108px; height:15px; position:absolute; top:1px; left:25px;" class="j1_ref_num-data-cell-bg"></div></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Row 3 -->
+                <tr>
+                    <td>
+                        <table class="form1table" width="100%">
+                            <tr>
+                                <td id="taxform1sec2box12label" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="width:120px; letter-spacing:14px; padding-left:5px;">申告年月日</td>
+                                <td id="taxform1sec2box13label" class="bord-t bord-l bord-r plumish vcenter" style="padding:0px; padding-top:2px; width: 170px; font-size:10px; line-height:12px;">
+                                    <div style="width:25px; height:14px; position:absolute; top:-2px; left:28px;" class="j1_mid-sec-data-cell-bg"></div>
+                                    <div style="width:25px; height:14px; position:absolute; top:-2px; left:68px;" class="j1_mid-sec-data-cell-bg"></div>
+                                    <div style="width:25px; height:14px; position:absolute; top:-2px; left:108px;" class="j1_mid-sec-data-cell-bg"></div>
+                                    <span id="taxform1sec2box13label1" style="padding-right: 27px; padding-left:7px;">平成</span>
+                                    <span id="taxform1sec2box13label2" style="padding-right: 28px;">年</span>
+                                    <span id="taxform1sec2box13label3" style="padding-right: 25px;" >月</span>
+                                    <span id="taxform1sec2box13label4">日</span>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Row 4 -->
+                <tr>
+                    <td>
+                        <table class="form1table" width="100%">
+                            <tr>
+                                <td id="taxform1sec2box14label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfonteight" style="width:120px; letter-spacing:20px; padding-left:11px;">申告区分</td>
+                                <td id="taxform1sec2box15label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfonteight" style="letter-spacing:6px; padding-left:9px;">指導等</td>
+                                <td id="taxform1sec2box16label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfonteight" style="letter-spacing:6px; padding-left:9px;">庁指定</td>
+                                <td id="taxform1sec2box17label" class="jp1_deduc-form-row-label bord-t bord-l bord-r vcenter jpfonteight" style="letter-spacing:6px; padding-left:9px;">局指定</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Row 5 -->
+                <tr style="height:18px;">
+                    <td>
+                        <table class="form1table" width="100%" style="height:18px;">
+                            <tr>
+                                <td id="taxform1sec2box18" class="bord-t bord-l" style="width:120px; height:18px;"><div style="width:12px; height:14px; position:absolute; top:-1px; left:34px;" class="jp_single_square"></div><div style="width:25px; height:14px; position:absolute; top:-1px; left:53px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1sec2box19" class="bord-t bord-l"><div style="width:12px; height:14px; position:absolute; top:-1px; left:20px;" class="jp_single_square"></div></td>
+                                <td id="taxform1sec2box20" class="bord-t bord-l"><div style="width:25px; height:14px; position:absolute; top:-1px; left:14px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1sec2box21" class="bord-t bord-l bord-r"><div style="width:12px; height:14px; position:absolute; top:-1px; left:18px;" class="jp_single_square"></div></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Rows 6 and 7 -->
+                <tr style="height:25px; padding:0px;">
+                    <td style="padding: 0px; height:15px;">
+                        <table class="form1table" width="100%" style="height:20px;">
+                            <tr style="height:15px;">
+                                <td id="taxform1sec2box22label" class="jp1_deduc-form-row-label bord-t bord-l jpsmallfont vcenter" style="width:100px; letter-spacing:8px; padding:0px; padding-left:5px; height:2px;">通信日付印</td>
+                                <td id="taxform1sec2box23label" class="jp1_deduc-form-row-label bord-t bord-l jpsmallfont vcenter" style="width:50px; letter-spacing:3px; padding:0px; padding-left:5px; height:2px;">確認印</td>
+                                <td class="bord-t bord-l" style="width:12px; padding:0px; vcenter" rowspan="2">
+                                    <div id="taxform1sec2box26label" class="jp1_deduc-form-row-label jpsmallerfont" style="letter-spacing:2px; padding-left:1px;"><span>確<br/>認<br/>書<br/>類</span></div>
+                                </td>
+                                <td id="taxform1sec2box27label" style="padding-left: 8px; font-size:7px;" class="bord-t bord-l vcenter" rowspan="2">個人番号カード<br/>通知カード・運転免許証<br/>その他（<span style="padding-right: 50px;"></span>）</td>
+                                <td class="bord-t bord-l bord-r" style="width:25px; padding: 0px;" rowspan="2">
+                                    <table cellspacing="0" cellpadding="0" style="" width="100%">
+                                        <tr>
+                                            <td id="taxform1sec2box28label" class="bord-b vcenter jpsmallerfont" style="letter-spacing:2px; height:30px; ">
+                                                <p style="padding-left:4px;">身元<br/>確認</p>
+                                            </td>
+                                        </tr>
+                                        <tr style="height:30px;">
+                                            <td id="taxform1sec2box29"><div style="width:13px; height:15px; position:absolute; top:5px; left:5px;" class="jp_single_square"></div></td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr style="height:10px;">
+                                <td id="taxform1sec2box24label" class="bord-t bord-l jpsmallerfont" style="vertical-align: bottom; height:10px">
+                                    <span style="padding-left:30px; letter-spacing:10px;">年月日</span>
+                                </td>
+                                <td id="taxform1sec2box25" class="bord-t bord-l smallfont"></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Row 8 -->
+                <tr>
+                    <td>
+                        <table class="form1table" width="100%">
+                            <tr class="jpsmallerfont">
+                                <td id="taxform1sec2box30label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfonteight" style="letter-spacing:13px; padding-left:29px;">指導年月日</td>
+                                <td id="taxform1sec2box31label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfonteight" style="width: 35px; letter-spacing:2px; padding-left:7px;">相談</td>
+                                <td id="taxform1sec2box32label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfonteight" style="width: 35px; letter-spacing:2px;">区分１</td>
+                                <td id="taxform1sec2box33label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfonteight" style="width: 35px; letter-spacing:2px;">区分２</td>
+                                <td id="taxform1sec2box34label" class="jp1_deduc-form-row-label bord-t bord-l bord-r vcenter jpfonteight" style="width: 35px; letter-spacing:2px;">区分３</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Row 9 -->
+                <tr>
+                    <td>
+                        <table class="form1table" width="100%">
+                            <tr>
+                                <td id="taxform1sec2box35label" class="bord-t bord-l bord-b plumish" style="padding-left:12px; vcenter">平成<div style="width:81px; height:14px; position:absolute; top:-1px; left:25px;" class="jp_six_square"></div></td>
+                                <td id="taxform1sec2box36" class="bord-t bord-l bord-b" style="width: 35px;"><div style="width:12px; height:14px; position:absolute; top:-1px; left:9px;" class="jp_single_square"></div></td>
+                                <td id="taxform1sec2box37" class="bord-t bord-l bord-b" style="width: 35px;"><div style="width:12px; height:14px; position:absolute; top:-1px; left:9px;" class="jp_single_square"></div></td>
+                                <td id="taxform1sec2box38" class="bord-t bord-l bord-b" style="width: 35px;"><div style="width:12px; height:14px; position:absolute; top:-1px; left:9px;" class="jp_single_square"></div></td>
+                                <td id="taxform1sec2box39" class="bord-t bord-l bord-r bord-b" style="width: 35px;"><div style="width:12px; height:14px; position:absolute; top:-1px; left:9px;" class="jp_single_square"></div></td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- MID SECTION  -->
+        <div style="width: 612px; float:left; padding:0px;">
+            <table style="width: 98%; padding-top: 10px;" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="" style="width:180px;">
+                        <table class="form1table" width="100%" style="border-spacing: 4px;">
+                            <tr>
+                                <td id="taxform1midsecbox4label" style="width: 10px" class="plumish">自</td>
+                                <td id="taxform1midsecbox5label" style="width: 15px" class="plumish">平成</td>
+                                <td class="j1_mid-sec-data-cell-bg" style="width: 15px"></td>
+                                <td id="taxform1midsecbox6label" style="width: 10px" class="plumish">年</td>
+                                <td class="j1_mid-sec-data-cell-bg" style="width: 15px"></td>
+                                <td id="taxform1midsecbox7label" style="width: 10px" class="plumish">月</td>
+                                <td class="j1_mid-sec-data-cell-bg" style="width: 15px"></td>
+                                <td id="taxform1midsecbox8label" style="width: 10px" class="plumish">日</td>
+                            </tr>
+                            <tr>
+                                <td id="taxform1midsecbox9label" class="plumish">至</td>
+                                <td id="taxform1midsecbox10label" class="plumish">平成</td>
+                                <td class="j1_mid-sec-data-cell-bg"></td>
+                                <td id="taxform1midsecbox11label" class="plumish">年</td>
+                                <td class="j1_mid-sec-data-cell-bg"></td>
+                                <td id="taxform1midsecbox12label" class="plumish">月</td>
+                                <td class="j1_mid-sec-data-cell-bg"></td>
+                                <td id="taxform1midsecbox13label" class="plumish">日</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td style="width: 110px;">
+                        <div id="taxform1midsecbox14label" style="padding-left:5px; font-size: 11px; font-weight: bold; width: 100%; letter-spacing:0px;">
+                            <p>課税期間分の消費税及び地方<br/>消費税の<span>（</span><span style="padding-left:40px"></span>）申告書</p>
+                        </div>
+                    </td>
+                    <td style="width: 200px" class="redbox">
+                        <table class="form1table" width="100%">
+                            <tr style="font-size:10px;" class="">
+                                <td rowspan="2" style="width:12px; font-size: 40px;">(</td>
+                                <td id="taxform1midsecbox15label" rowspan="2">中間申告<br/>の場合の<br/>対象期間</td>
+                                <td id="taxform1midsecbox16label" class="plumish" style="width: 14px;">自</td>
+                                <td id="taxform1midsecbox17label" class="plumish" style="width: 20px;">平成</td>
+                                <td style="width: 30px"><div style="width:25px; height:14px; position:absolute; top:-2px; left:2px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1midsecbox18label" class="plumish" style="width: 14px;">年</td>
+                                <td style="width: 30px"><div style="width:25px; height:14px; position:absolute; top:-2px; left:0px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1midsecbox19label" class="plumish" style="width: 14px;">月</td>
+                                <td style="width: 30px"><div style="width:25px; height:14px; position:absolute; top:-2px; left:0px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1midsecbox20label" class="plumish" style="width: 14px;">日</td>
+                                <td rowspan="2" style="width: 12px;font-size: 40px;">)</td>
+                            </tr>
+                            <tr class="plumish" style="font-size:10px;">
+                                <td id="taxform1midsecbox21label" class="plumish">至</td>
+                                <td id="taxform1midsecbox22label" class="plumish">平成</td>
+                                <td><div style="width:25px; height:14px; position:absolute; top:-2px; left:2px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1midsecbox23label" class="plumish">年</td>
+                                <td><div style="width:25px; height:14px; position:absolute; top:-2px; left:0px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1midsecbox24label" class="plumish">月</td>
+                                <td><div style="width:25px; height:14px; position:absolute; top:-2px; left:0px;" class="j1_mid-sec-data-cell-bg"></div></td>
+                                <td id="taxform1midsecbox25label" class="plumish">日</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SECTION 3 -->
+        <div class="" style="width: 319px; float: left; font-size:12px; padding:0px;">
+            <table class="form1table form1table" width="100%" style="height:490px;">
+                <!-- This row defines column width-->
+                <tr class="hiddentr"> <!--class="hiddentr"-->
+                    <td style="width: 20px;"></td>
+                    <td style="width: 25px;"></td>
+                    <td style="width: 75px;"></td>
+                    <td style="width: 18px;"></td>
+                    <td></td>
+                    <td style="width: 15px;"></td>
+                </tr>
+                <!-- Header -->
+                <tr>
+                    <td id="taxform1sec3boxheader" colspan="6" class="bord-t bord-l bord-r" align="center" style="letter-spacing:3px;">この申告書による消費税の税額の計算</td>
+                </tr>
+                <!-- Section 3 Row 1 -->
+                <tr>
+                    <td id="taxform1sec3box1label" colspan="3" class="bord-t bord-l vcenter" align="center" rowspan="2" style="letter-spacing:8px;">課税標準額</td>
+                    <td id="taxform1sec3box1no" class="bord-t bord-l vcenter" align="center" rowspan="2">①</td>
+                    <td id="taxform1sec3boxamountheader" class="vcenter bord-t bord-l bord-r orangish" align="center" style="height:8px; letter-spacing:3px; font-size:8px;" colspan="2">十兆千百十億千百十万千百十一円</td>
+                </tr>
+                <tr>
+                    <td class="bord-t bord-l" style="height:18px; padding-top:2px;">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box1amount"><#if data.taxform1sec3box1amount=='0'>000<#else>${data.taxform1sec3box1amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box1index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">03</td>
+                </tr>
+                <!-- Section 3 Row 2 -->
+                <tr>
+                    <td id="taxform1sec3box2label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:25px;">消費税額</td>
+                    <td id="taxform1sec3box2no" class="bord-t bord-l deduc-form-row-no vcenter" align="center">②</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top:-1px;"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box2amount">${data.taxform1sec3box2amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box2index" class="bord-t bord-l bord-r section3rightnum" align="center">06</td>
+                </tr>
+                <!-- Section 3 Row 3 -->
+                <tr>
+                    <td id="taxform1sec3box3label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:5px;">控除過大調整税額</td>
+                    <td id="taxform1sec3box3no" class="bord-t bord-l vcenter" align="center">③</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box3amount">${data.taxform1sec3box3amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box3index" class="bord-t bord-l bord-r section3rightnum" align="center">07</td>
+                </tr>
+                <!-- Section 3 Row 4 -->
+                <tr>
+                    <td class="bord-t bord-l" rowspan="4" style="padding:0px;">
+                        <div id="taxform1sec3boxexcepttax" class="vcenter" align="center" style="height:30px; line-height:15px;"><p>控<br/>除<br/>税<br/>額</p></div>
+                    </td>
+                    <td id="taxform1sec3box4label" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l section3tr vcenter" align="center" style="letter-spacing:2px;">控除対象仕入税額</td>
+                    <td id="taxform1sec3box4no" class="bord-t bord-l vcenter" align="center">④</td>
+                    <td class="bord-t bord-l section3tr">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box4amount">${data.taxform1sec3box4amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box4index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">08</td>
+                </tr>
+                <!-- Section 3 Row 5 -->
+                <tr>
+                    <td id="taxform1sec3box5label" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven" style="letter-spacing:14px; padding:0px 4px;">返還等対価<br/>に係る税額</td>
+                    <td id="taxform1sec3box5no" class="bord-t bord-l vcenter" align="center">⑤</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box5amount">${data.taxform1sec3box5amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box5index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">09</td>
+                </tr>
+                <!-- Section 3 Row 6 -->
+                <tr>
+                    <td id="taxform1sec3box6label" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter" align="center" style="letter-spacing:2px; padding:0px;">貸倒れに係る税額</td>
+                    <td id="taxform1sec3box6no" class="bord-t bord-l vcenter" align="center">⑥</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box6amount">${data.taxform1sec3box6amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box6index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">10</td>
+                </tr>
+                <!-- Section 3 Row 7 -->
+                <tr>
+                    <td id="taxform1sec3box7label" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven" align="center" style="padding-left:9px;">
+                        <span style="letter-spacing:9px;">控除税額小計</span><br/><span style="letter-spacing:8px;">(④＋⑤＋⑥)</span></td>
+                    <td id="taxform1sec3box7no" class="bord-t bord-l vcenter" align="center">⑦</td>
+                    <td class="bord-t  bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top:2px;"></div>
+                        <table class="freemarkerdata" style="top:3px;">
+                            <tr>
+                                <td align="right" id="taxform1sec3box7amount">${data.taxform1sec3box7amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box7index" class="bord-t bord-l bord-r"></td>
+                </tr>
+                <!-- Section 3 Row 8 -->
+                <tr>
+                    <td id="taxform1sec3box8label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven" align="center" style="padding-left:11px;">
+                        <span style="letter-spacing:7px;">控除不足還付税額</span><br/><span style="letter-spacing:12px;">(⑦－②－③)</span></td>
+                    <td id="taxform1sec3box8no" class="bord-t bord-l deduc-form-row-no vcenter" align="center">⑧</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box8amount">${data.taxform1sec3box8amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box8index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">13</td>
+                </tr>
+                <!-- Section 3 Row 9 -->
+                <tr class="section3tr vcenter">
+                    <td id="taxform1sec3box9label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven">
+                        <span style="letter-spacing:28px;">差引税額</span><br/><span style="letter-spacing:12px; padding-left:2px;">(②＋③－⑦)</span></td>
+                    <td id="taxform1sec3box9no" class="bord-t bord-l deduc-form-row-no vcenter" align="center">⑨</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box9amount"><#if data.taxform1sec3box9amount == '0' >00<#else>${data.taxform1sec3box9amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box9index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">15</td>
+                </tr>
+                <!-- Section 3 Row 10 -->
+                <tr>
+                    <td id="taxform1sec3box10label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:11px;">中間納付税額</td>
+                    <td id="taxform1sec3box10no" class="bord-t bord-l deduc-form-row-no vcenter" align="center">⑩</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top:-1px;"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box10amount"><#if data.taxform1sec3box10amount == '0'>00<#else>${data.taxform1sec3box10amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box10index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">16</td>
+                </tr>
+                <!-- Section 3 Row 11 -->
+                <tr>
+                    <td id="taxform1sec3box11label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven" style="padding:2px;">
+                        <span style="letter-spacing:27px; padding-left:3px;">納付税額</span><br/><span style="letter-spacing:22px;">(⑨－⑩)</span></td>
+                    <td id="taxform1sec3box11no" class="bord-t bord-l deduc-form-row-no vcenter" style="padding-left:4px;" align="center">⑪</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box11amount"><#if data.taxform1sec3box11amount == '0'>00<#else>${data.taxform1sec3box11amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box11index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">17</td>
+                </tr>
+                <!-- Section 3 Row 12 -->
+                <tr>
+                    <td id="taxform1sec3box12label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven"><span style="letter-spacing:7px; padding-left:2px;">中間納付還付税額</span><br/><span style="letter-spacing:21px;">(⑩－⑨)</span></td>
+                    <td id="taxform1sec3box12no" class="bord-t bord-l vcenter" align="center">⑫</td>
+                    <td class="bord-t bord-l" >
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box12amount"><#if data.taxform1sec3box12amount == '0'>00<#else>${data.taxform1sec3box12amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box12index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">18</td>
+                </tr>
+                <!-- Section 3 Row 13 -->
+                <tr>
+                    <td id="taxform1sec3boxamenddec1" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter" rowspan="2" style="font-size:8px;">この申告書<br/>が修正申告<br/>である場合</td>
+                    <td id="taxform1sec3box13label" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:5px;">既確定税額</td>
+                    <td id="taxform1sec3box13no" class="bord-t bord-l deduc-form-row-no roundednossmallpad" align="center">⑬</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top:-1px;"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box13amount">${data.taxform1sec3box13amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box13index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">19</td>
+                </tr>
+                <!-- Section 3 Row 14 -->
+                <tr>
+                    <td id="taxform1sec3box14label" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:2px;">差引納付税額</td>
+                    <td id="taxform1sec3box14no" class="bord-t bord-l deduc-form-row-no roundednossmallpad" align="center">⑭</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top:-1px;"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box14amount"><#if data.taxform1sec3box14amount = '0'>00<#else>${data.taxform1sec3box14amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box14index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">20</td>
+                </tr>
+                <!-- Section 3 Row 15 -->
+                <tr>
+                    <td id="taxform1sec3boxtaxratio" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l jpsmallfont vcenter" rowspan="2">
+                        <span>課税売上</span><br/><span style="letter-spacing:20px;">割合</span>
+                    </td>
+                    <td id="taxform1sec3box15label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven">
+                        <span style="letter-spacing:3px;">課税資産の譲渡</span><br/><span style="letter-spacing:5px;">等の対価の額</span>
+                    </td>
+                    <td id="taxform1sec3box15no" class="bord-t bord-l vcenter" align="center">⑮</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box15amount">${data.taxform1sec3box15amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box15index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">21</td>
+                </tr>
+                <!-- Section 3 Row 16 -->
+                <tr>
+                    <td id="taxform1sec3box16label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven">
+                        <span style="letter-spacing:6px;">資産の譲渡</span><br/><span style="letter-spacing:4px;">等の対価の額</span></td>
+                    <td id="taxform1sec3box16no" class="bord-t bord-l vcenter" align="center">⑯</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box16amount">${data.taxform1sec3box16amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box16index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">22</td>
+                </tr>
+                <!-- Section 3 Mid header -->
+                <tr>
+                    <td id="taxform1sec3boxmid" colspan="6" class="center bord-t bord-l bord-r vcenter" align="center" style="letter-spacing:1px;">この申告書による地方消費税の税額の計算</td>
+                </tr>
+                <!-- Section 3 Row 17 -->
+                <tr>
+                    <td id="taxform1sec3boxtaxlocal" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter" rowspan="2" style="font-size:7px; line-height:7px;">
+                        <span style="letter-spacing:1px;">地方消費税</span><br/><span style="letter-spacing:1px;">の課税標準</span><br/><span style="letter-spacing:1px;">となる消費</span><br/><span style="letter-spacing:23px;">税額</span></td>
+                    <td id="taxform1sec3box17label" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="font-size:8px; letter-spacing:1px;">控除不足還付税額</td>
+                    <td id="taxform1sec3box17no" class="bord-t bord-l deduc-form-row-no roundednossmallpad" align="center">⑰</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top:-1px;"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box17amount">${data.taxform1sec3box17amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box17index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">51</td>
+                </tr>
+                <!-- Section 3 Row 18 -->
+                <tr>
+                    <td id="taxform1sec3box18label" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:10px;">差引税額</td>
+                    <td id="taxform1sec3box18no" class="bord-t bord-l deduc-form-row-no roundednossmallpad" align="center">⑱</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box18amount"><#if data.taxform1sec3box18amount='0'>00<#else>${data.taxform1sec3box18amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box18index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">52</td>
+                </tr>
+                <!-- Section 3 Row 19 -->
+                <tr>
+                    <td class="bord-t bord-l vcenter" rowspan="2" style="padding-left:5px;">
+                        <div id="taxform1sec3boxtaxyield" class="" style="font-size: 8px; height:15px; letter-spacing: 2px;"><span>譲<br/>渡<br/>割<br/>額</span></div>
+                    </td>
+                    <td id="taxform1sec3box19label" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:30px;">還付額</td>
+                    <td id="taxform1sec3box19no" class="bord-t bord-l vcenter" align="center">⑲</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top: 4px;"></div>
+                        <table class="freemarkerdata" style="top: 5px;">
+                            <tr>
+                                <td align="right" id="taxform1sec3box19amount">${data.taxform1sec3box19amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box19index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">53</td>
+                </tr>
+                <!-- Section 3 Row 20 -->
+                <tr>
+                    <td id="taxform1sec3box20label" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:30px;">納税額</td>
+                    <td id="taxform1sec3box20no" class="bord-t bord-l vcenter" align="center">⑳</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top: 4px;"></div>
+                        <table class="freemarkerdata" style="top: 5px;">
+                            <tr>
+                                <td align="right" id="taxform1sec3box20amount"><#if data.taxform1sec3box20amount == '0'>00<#else>${data.taxform1sec3box20amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box20index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">54</td>
+                </tr>
+                <!-- Section 3 Row 21 -->
+                <tr>
+                    <td id="taxform1sec3box21label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter" style="letter-spacing:5px;">中間納付譲渡割額</td>
+                    <td id="taxform1sec3box21no" class="bord-t bord-l deduc-form-row-no roundednossmallpad" align="center">㉑</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg" style="top:-1px;"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box21amount"><#if data.taxform1sec3box21amount == '0'>00<#else>${data.taxform1sec3box21amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box21index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">55</td>
+                </tr>
+                <!-- Section 3 Row 22 -->
+                <tr>
+                    <td id="taxform1sec3box22label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven">
+                        <span style="letter-spacing:14px;">納付譲渡割額</span><br/><span style="letter-spacing: 21px;">(⑳－㉑)</span></td>
+                    <td id="taxform1sec3box22no" class="bord-t bord-l vcenter" align="center">㉒</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box22amount"><#if data.taxform1sec3box22amount == '0'>00<#else>${data.taxform1sec3box22amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box22index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">56</td>
+                </tr>
+                <!-- Section 3 Row 23 -->
+                <tr>
+                    <td id="taxform1sec3box23label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven">
+                        <span style="letter-spacing:5px;">中間納付還付譲渡割額</span><br/><span style="letter-spacing:20px; padding-left:5px;">(㉑－⑳)</span></td>
+                    <td id="taxform1sec3box23no" class="bord-t bord-l vcenter" align="center">㉓</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box23amount"><#if data.taxform1sec3box23amount == '0'>00<#else>${data.taxform1sec3box23amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box23index" class="bord-t bord-l bord-r deduc-form-row-no plumish section3rightnum" align="center">57</td>
+                </tr>
+                <!-- Section 3 Row 24 -->
+                <tr>
+                    <td id="taxform1sec3boxamenddec2" colspan="2" class="jp1_deduc-form-row-label bord-t bord-l bord-b vcenter jpfontseven" style="font-size: 7px; padding-left:4px;" rowspan="2">この申告書<br/>が修正申告<br/>である場合</td>
+                    <td id="taxform1sec3box24label" class="jp1_deduc-form-row-label bord-t bord-l vcenter jpfontseven">
+                        <span style="letter-spacing:21px;">既確定</span><br/><span style="letter-spacing:12px;">譲渡割額</span>
+                    </td>
+                    <td id="taxform1sec3box24no" class="bord-t bord-l vcenter" align="center">㉔</td>
+                    <td class="bord-t bord-l">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box24amount">${data.taxform1sec3box24amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box24index" class="bord-t bord-l bord-r vcenter section3rightnum" align="center">58</td>
+                </tr>
+                <!-- Section 3 Row 25 -->
+                <tr>
+                    <td id="taxform1sec3box25label" class="jp1_deduc-form-row-label bord-t bord-l bord-b vcenter jpfontseven" style="letter-spacing:12px;">
+                        <span>差引納付</span><br/><span>譲渡割額</span>
+                    </td>
+                    <td id="taxform1sec3box25no" class="bord-t bord-l bord-b vcenter" align="center">㉕</td>
+                    <td class="bord-t bord-l bord-b">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box25amount"><#if data.taxform1sec3box25amount=='0'>00<#else>${data.taxform1sec3box25amount}</#if></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box25index" class="bord-t bord-l bord-r bord-b vcenter section3rightnum" align="center">59</td>
+                </tr>
+                <tr>
+                    <td colspan="6" style="height:19px;"></td>
+                </tr>
+                <!-- Section 3 Row 26 -->
+                <tr>
+                    <td id="taxform1sec3box26label" colspan="3" class="jp1_deduc-form-row-label bord-t bord-l bord-b vcenter jpfontseven">
+                        <span style="letter-spacing:4px;">消費税及び地方消費税の</span><br/><span style="letter-spacing:3px; padding-left:4px;">合計(納付又は還付)税額</span>
+                    </td>
+                    <td id="taxform1sec3box26no" class="bord-t bord-l bord-b vcenter" align="center">㉖</td>
+                    <td class="bord-t bord-l bord-b">
+                        <div class="jp1_table-3-data-cell-bg"></div>
+                        <table class="freemarkerdata">
+                            <tr>
+                                <td align="right" id="taxform1sec3box26amount">${data.taxform1sec3box26amount}</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec3box26index" class="bord-t bord-l bord-r bord-b vcenter section3rightnum" align="center">60</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- SECTION 4 -->
+        <div class="" style="width: 304px; float: left; margin-left:3px;" >
+
+            <table class="form1table form1table" height="500px">
+                <!-- This row defines column width-->
+                <tr class="hiddentr"> <!---->
+                    <td style="width: 25px;"></td>
+                    <td style="width: 25px;"></td>
+                    <td style="width: 70px;"></td>
+                    <td style="width: 22px;"></td>
+                    <td style="width: 32px;"></td>
+                    <td style="width: 32px;"></td>
+                    <td style="width: 32px;"></td>
+                    <td style="width: 32px;"></td>
+                    <td style="width: 20px;"></td>
+                </tr>
+                <!-- Section 4 Row 1 -->
+                <tr>
+                    <td rowspan="4" class="jp1_deduc-form-row-label bord-l bord-t" style="height:45px; padding-left:4px;">
+                        <span id="taxform1sec4box1label" class="jp1_deduc-form-row-label vcenter" style="line-height:17px; padding:0px;">付<br/>記<br/>事<br/>項</span>
+                    </td>
+                    <td id="taxform1sec4box2label" colspan="3" class="jp1_deduc-form-row-label bord-l bord-t vcenter" style="letter-spacing:11px; padding-left:5px;">割賦基準の<span style="padding-left:2px;">適</span>用</td>
+                    <td id="taxform1sec4box3" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:2px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box4label" class="bord-l bord-t onecharcenter" align="center">有</td>
+                    <td id="taxform1sec4box5" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:2px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box6label" class="bord-l bord-t onecharcenter" align="center">無</td>
+                    <td id="taxform1sec4box7label" class="bord-l bord-t bord-r deduc-form-row-no plumish section3rightnum jpfonteight" align="center">31</td>
+                </tr>
+                <!-- Section 4 Row 2 -->
+                <tr>
+                    <td id="taxform1sec4box8label" colspan="3" class="jp1_deduc-form-row-label bord-l bord-t vcenter" style="letter-spacing:9px; padding-left:4px;">延払基準等の適用</td>
+                    <td id="taxform1sec4box9" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box10label" class="bord-l bord-t onecharcenter" align="center">有</td>
+                    <td id="taxform1sec4box11" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box12label" class="bord-l bord-t onecharcenter" align="center">無</td>
+                    <td id="taxform1sec4box13label" class="bord-l bord-t bord-r deduc-form-row-no plumish section3rightnum jpfonteight" align="center">32</td>
+                </tr>
+                <!-- Section 4 Row 3 -->
+                <tr>
+                    <td id="taxform1sec4box14label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" colspan="3" style="letter-spacing:6px; padding-left:6px;">工事進行基準の<span style="padding-left:3px;">適</span>用</td>
+                    <td id="taxform1sec4box15" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box16label" class="bord-l bord-t onecharcenter" align="center">有</td>
+                    <td id="taxform1sec4box17" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box18label" class="bord-l bord-t onecharcenter" align="center">無</td>
+                    <td id="taxform1sec4box19label" class="bord-l bord-t bord-r deduc-form-row-no plumish section3rightnum jpfonteight" align="center">33</td>
+                </tr>
+                <!-- Section 4 Row 4 -->
+                <tr>
+                    <td id="taxform1sec4box20label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" colspan="3" style="letter-spacing:5px; padding-left:6px;">現金主義会計<span style="padding-left:10px;">の適</span>用</td>
+                    <td id="taxform1sec4box21" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box22label" class="bord-l bord-t onecharcenter" align="center">有</td>
+                    <td id="taxform1sec4box23" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-2px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box24label" class="bord-l bord-t onecharcenter" align="center">無</td>
+                    <td id="taxform1sec4box25label" class="bord-l bord-t bord-r deduc-form-row-no plumish section3rightnum jpfonteight" align="center">34</td>
+                </tr>
+                <!-- Section 4 Row 5 -->
+                <tr>
+                    <td class="bord-l bord-t vcenter" rowspan="5" style="padding-left:7px;"> <!-- style="padding: 2px 5px;" -->
+                        <div id="taxform1sec4box26label" class="jp1_deduc-form-row-label" style="position:absolute; top:-13px; left:-3px; width:40px; height:65px; line-height:29px; "><p>参<br/>考<br/>事<br/>項</p></div>
+                    </td>
+                    <td id="taxform1sec4box27label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" colspan="3" style="font-size:7px; letter-spacing:5px; padding-left:6px;">課税標準額に対す<span style="letter-spacing:11px;">る消費</span><br/>税額の計算の特<span style="letter-spacing:9px;">例の適用</span></td>
+                    <td id="taxform1sec4box28" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-1px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box29label" class="bord-l bord-t onecharcenter" align="center">有</td>
+                    <td id="taxform1sec4box30" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-1px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box31label" class="bord-l bord-t onecharcenter" align="center">無</td>
+                    <td id="taxform1sec4box32label" class="bord-l bord-t bord-r deduc-form-row-no plumish section3rightnum jpfonteight" align="center">35</td>
+                </tr>
+                <!-- Section 4 Row 6 -->
+                <tr>
+                    <td class="bord-l bord-t" rowspan="3" style="padding:0px;">
+                        <div id="taxform1sec4box33label" class="jp1_deduc-form-row-label jpsmallerfont vcenter" style="height: 70px;letter-spacing: 2px;">
+                            <div style="padding:0px; width:10px; position:absolute; top:-18px; left:1px; line-height:13px;" class="jpsmallerfont"><br/>控<br/>除<br/>税<br/>額<br/>の</div>
+                            <div style="padding:0px; width:10px; position:absolute; top:-17px; left:10px; line-height:15px;" class="jpsmallerfont"><br/>計<br/>算<br/>方<br/>法</div>
+                        </div>
+                    </td>
+                    <td id="taxform1sec4box34label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" rowspan="2" colspan="2" style="font-size:8px; line-height:10px;letter-spacing:5px;">課税売上高5億円超又は<br/>課税売上割合<span style="letter-spacing:5px;">95％未満</span></td>
+                    <td id="taxform1sec4box35" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:1px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box36label" class="jp1_deduc-form-row-label bord-l bord-t vcenter jpfontseven" colspan="3" style="padding-left:6px;"><span style="letter-spacing:13px;">個別対応</span><br/>方<span style="padding-left:54px;"></span>式</td>
+                    <td id="taxform1sec4box37label" class="bord-l bord-t bord-r deduc-form-row-no plumish section3rightnum jpfonteight" rowspan="3" align="center">41</td>
+                </tr>
+                <!-- Section 4 Row 7 -->
+                <tr>
+                    <td id="taxform1sec4box38" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:2px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box39label" class="jp1_deduc-form-row-label bord-l bord-t vcenter jpfontseven" colspan="3" style="letter-spacing:13px; padding-left:4px;">
+                        一括比例<br/>
+                        配分方式
+                    </td>
+                </tr>
+                <!-- Section 4 Row 8 -->
+                <tr>
+                    <td id="taxform1sec4box40label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" colspan="2">
+                        <span style="letter-spacing:28px; padding-left:6px;">上記以外</span>
+                    </td>
+                    <td id="taxform1sec4box41" class="bord-l bord-t"><div style="width:16px; height:16px; position:absolute; top:-1px; left:1px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                    <td id="taxform1sec4box42label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" colspan="3">
+                        <span style="letter-spacing:9px; padding-top:2px; padding-left:3px;">全額控除</span>
+                    </td>
+                </tr>
+                <!-- Section 4 Row 9 -->
+                <tr>
+                    <td id="taxform1sec4box43label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" colspan="2" style="padding-left:7px; letter-spacing:5px;">基準期間の<br/>課税売上高</td>
+                    <td id="taxform1sec4box44label" class="bord-l bord-t vcenter" colspan="5" style=""><span style="padding-left:148px;"></span>千円</td>
+                    <td id="taxform1sec4box45" class="bord-l bord-t bord-r bord-b" rowspan="7"></td>
+                </tr>
+                <!-- Section 4 Row 10 -->
+                <tr>
+                    <td id="taxform1sec4box46" class="bord-l bord-t" style="height:88px;" colspan="8"></td>
+                </tr>
+                <!-- Section 4 Row 11 -->
+                <tr>
+                    <td class="bord-l bord-t" rowspan="4" style="padding: 0px;">
+                        <div id="taxform1sec4box47label" class="jp1_deduc-form-row-label vcenter" style="height:100px;">
+                            <div style="padding:0px; width:10px; position:absolute; top:-40px; left:1px; line-height:20px;"><p>還<br/>付<br/>を<br/>受<br/>け<br/>よ<br/>う<br/>と</p></div>
+                            <div style="padding:0px; width:10px; position:absolute; top:-40px; left:10px; line-height:23px;"><p>す<br/>る<br/>金<br/>融<br/>機<br/>関<br/>等</p></div>
+                        </div>
+                    </td>
+                    <td id="taxform1sec4box48" class="bord-l bord-t form1table" colspan="2" style="height:50px;"></td>
+                    <td class="bord-t jpsmallfont vcenter">
+                        <table class="vcenter form1table" style="width:50px; padding: 0px; " cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td colspan="2" id="taxform1sec4box49label" class="jp1_deduc-form-row-label vcenter"><span style="letter-spacing:30px;">銀行</span><br/>金庫・組合<br/>農協・漁協</td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec4box50" class="bord-t form1table" colspan="2" style="width: 25px;"></td>
+                    <td class="bord-t jpsmallfont vcenter" colspan="2">
+                        <table id="taxform1sec4box51label" class="form1table" style="width: 50px; padding: 0px;" cellspacing="0" cellpadding="0">
+                            <tr>
+                                <td colspan="2" class="jp1_deduc-form-row-label vcenter">本店・支店<br/><span style="letter-spacing:9px;">出張所</span><br/>本所・支所</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- Section 4 Row 12 -->
+                <tr>
+                    <td id="taxform1sec4box52label" class="bord-l bord-t vcenter" colspan="2" style="padding-left:58px; height:40px;">預金</td>
+                    <td id="taxform1sec4box53label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" style="letter-spacing:7px; padding-left:4px;">口座番号</td>
+                    <td id="taxform1sec4box54" class="bord-l bord-t" colspan="4"></td>
+                </tr>
+                <!-- Section 4 Row 13 -->
+                <tr>
+                    <td id="taxform1sec4box55label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" style="height: 40px;" colspan="2"><span style="letter-spacing:1px;">ゆうちょ</span><span style="letter-spacing:2px;">銀行の</span><br/><span style="letter-spacing:4px;">貯金記号番号</span></td>
+                    <td id="taxform1sec4box56" class="bord-l bord-t vcenter" colspan="5" style="padding-left:80px;">-</td>
+                </tr>
+                <!-- Section 4 Row 14 -->
+                <tr>
+                    <td id="taxform1sec4box57label" class="jp1_deduc-form-row-label bord-l bord-t vcenter" style="height:35px; letter-spacing:7px; padding-left:4px;" colspan="2">郵便局名等</td>
+                    <td id="taxform1sec4box58" class="bord-l bord-t" colspan="5"></td>
+                </tr>
+                <!-- Section 4 Row 15 -->
+                <tr>
+                    <td id="taxform1sec4box59label" class="bord-l bord-t bord-b vcenter" colspan="3" style="letter-spacing:2px;  padding-left:3px;">※税務署整理欄</td>
+                    <td class="bord-l bord-t bord-b" colspan="3" style="text-align: left; vertical-align: bottom; padding: 0px;">
+                        <span id="taxform1sec4box60"></span>
+                        <table width="86%" cellpadding="0" cellspacing="0" class="form1table">
+                            <tr>
+                                <td class="bord-r" style="width: 17%; height: 6px;"></td>
+                                <td class="bord-r" style="width: 17%; height: 6px;"></td>
+                                <td class="bord-r" style="width: 17%; height: 6px;"></td>
+                                <td class="bord-r" style="width: 17%; height: 6px;"></td>
+                                <td class="bord-r" style="width: 17%; height: 6px;"></td>
+                                <td class="bord-r" style="width: 17%; height: 6px;"></td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td id="taxform1sec4box61" class="bord-l bord-t bord-b" colspan="2"></td>
+                </tr>
+                <tr>
+                    <td colspan="9">&#xA0;</td>
+                </tr>
+                <tr>
+                    <td colspan="9" style="padding: 0px;">
+                        <table width="100%" class="form1table form1table">
+                            <tr>
+                                <td id="taxform1sec4box62label" style="width: 80px; height: 50px;" class="jp1_deduc-form-row-label bord-t bord-l bord-b vcenter"><span style="letter-spacing:20px;">税理士</span><br/><span style="letter-spacing:10px;">署名押印</span></td>
+                                <td class="bord-t bord-l bord-b bord-r" style="padding-bottom: 5px;">
+                                    <div style="width:19px; height:18px; position:absolute; top:2px; left:175px;" class="jp_full_circle"></div>
+                                    <div id="taxform1sec4box64label" class="jpsmallerfont" style="width:190px; height:20px; position:absolute; top:24px; left:50px;"><p>(電話番<span style="letter-spacing:29px;">号－－</span>)</p></div>
+                                    <p id="taxform1sec4box63label" style="position: absolute; top: 6px; left: 178px;">印</p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="9">&#xA0;</td>
+                </tr>
+                <!-- Section 4 last two rows -->
+                <tr>
+                    <td colspan="9" style="padding: 0px;">
+                        <table width="100%" class="form1table form1table">
+                            <tr>
+                                <td id="taxform1sec4box65" class="bord-l bord-t" style="width: 25px;"><div style="width:14px; height:14px; position:absolute; top:-2px; left:2px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                                <td id="taxform1sec4box66label" class="jp1_deduc-form-row-label bord-l bord-t bord-r vcenter" style="letter-spacing:10px;">税理士法第30条の書面提出有</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="9" style="padding: 0px;">
+                        <table width="100%" class="form1table form1table">
+                            <tr>
+                                <td id="taxform1sec4box67" class="bord-l bord-t bord-b" style="width: 25px;"><div style="width:14px; height:14px; position:absolute; top:-2px; left:2px;" class="j1_dotted-box-data-cell-bg"></div></td>
+                                <td id="taxform1sec4box68label" class="jp1_deduc-form-row-label bord-l bord-t bord-r bord-b vcenter" style="letter-spacing:8px;">税理士法第33条の2の書面提出有</td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- FOOTER -->
+        <div style="float:left; clear:both; font-size:9px; width: 300px; padding:0xp; line-height:9px;">
+            <p id="taxform1footer" class="plumish" >㉖＝(⑪＋㉒)－(⑧＋⑫＋⑲＋㉓)・修正申告の場合㉖＝⑭＋㉕<br/>㉖が還付税額となる場合はマイナス「－」を付してください。</p>
+        </div>
+    </p>
+</div>
+
+<div style="width:10px;position: relative; float:left; top: 0px; height: 600px; padding-top:58px;">
+    <div id="taxform1sidetext1" class="" style="height: 10px; font-size: 20px; font-weight: bold;"><p>第<br/>一<br/>表</p></div>
+    <div id="taxform1sidetext2" class="plumish" style="height: 500px; letter-spacing: 5px; font-size: 14px;"><p>平<br/>成<br/>三<br/>十<br/>一<br/>年<br/>十<br/>月<br/>一<br/>日<br/>以<br/>後<br/>終<br/>了<br/>課<br/>税<br/>期<br/>間<br/>分<p style="line-height:1px; padding:0px;" rotate="90">(</p>一<br/>般<br/>用<p style="line-height:1px; padding:0px;" rotate="90">)</p></p></div>
+</div>
+</p>

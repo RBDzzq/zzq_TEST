@@ -1,0 +1,486 @@
+<style>
+      input[type="number"] {
+        text-align: right !important;
+      }
+</style>
+
+<div class="calc-form-loader"></div>
+<div class="calc-form-container">
+      <form id="deduccalcform4">
+            <span id="deducform2headernote" class="form-header-note">第４-(５)号様式</span>
+            <table class="calc-form-table" id="deducform2formtable">
+                  <!-- This row defines column width-->
+                  <tr>
+                        <td width="20px"></td>
+                        <td width="5px"></td>
+                        <td width="20px"></td>
+                        <td width="100px"></td>
+                        <td width="15px"></td>
+                        <td width="160px"></td>
+                        <td width="165px"></td>
+                        <td width="155px"></td>
+                        <td width="160px"></td>
+                  </tr>
+                  <tr>
+                        <td colspan="9" style="padding:0px;">
+                              <table class="calc-form-title-table" align="left">
+                                    <tr>
+                                          <td id="deducform2appendix" width="80px">付表１－２</td>
+                                          <td id="deducform2documenttitle1" width="480px" style="letter-spacing:0.5mm">税率別消費税額計算表 兼 地方消費税の課税標準となる消費税額計算表</td>
+                                          <td rowspan="2">
+                                                <div id="deducform2upperrightbox" style="text-align: center; float:right;width:70px; height:30px; border:1px solid; padding-top:5px; padding-left:5px; letter-spacing:10px">一般</div>
+                                          </td>
+                                    </tr>
+                                    <tr>
+                                          <td></td>
+                                          <td id="deducform2documenttitle2"><div class="deductheaderheight" style="letter-spacing:0.5mm">〔経過措置対象課税資産の譲渡等を含む課税期間用〕</div></td>
+                                    </tr>
+                              </table>
+                        </td>
+                  </tr>
+                  <tr>
+                        <td colspan="9" style="padding:0px;">
+                              <table class="calc-form-header-table" align="right">
+                                    <tr>
+                                          <td id="deducform2preheader1" width="170px" class="center bord-t-th bord-l-th deduc-form-row-label headerpad">課税期間</td>
+                                          <td id="deducform2preheader2" width="220px" class="center bord-t-th bord-l-th deduc-form-row-label headerpad">・ ・ ～ ・ ・</td>
+                                          <td id="deducform2preheader3" width="150px" class="center bord-t-th bord-l-th deduc-form-row-label headerpad">氏名又は名称</td>
+                                          <td id="deducform2preheader4" width="240px" class="center bord-t-th bord-l-th bord-r-th"></td>
+                                    </tr>
+                              </table>
+                        </td>
+                  </tr>
+                  <!-- Row Header -->
+                  <tr class="center">
+                        <td id="deducform2header" name="deducform2header" class="deducformheader bord-t-th bord-b-th bord-l-th" colspan="5">区分</td>
+                      <td id="deducform2headera" name="deducform2headera" class="bord-t-th bord-b-th bord-l-th">
+                          <table cellpadding="0" cellspacing="0" style="width:100%">
+                              <tr><td class="deducformheader" style="padding-bottom:0">税率３％適用分</td></tr>
+                              <tr><td class="deductnormaljustify" style="padding-top:0">A</td></tr>
+                          </table>
+                      </td>
+                      <td id="deducform2headerb" name="deducform2headerb" class="bord-t-th bord-b-th bord-l-th">
+                          <table cellpadding="0" cellspacing="0" style="width:100%">
+                              <tr><td class="deducformheader" style="padding-bottom:0">税率４％適用分</td></tr>
+                              <tr><td class="deductnormaljustify" style="padding-top:0">Ｂ</td></tr>
+                          </table>
+                      </td>
+                      <td id="deducform2headerc" name="deducform2headerc" class="bord-t-th bord-b-th bord-l-th">
+                          <table cellpadding="0" cellspacing="0" style="width:100%">
+                              <tr><td class="deducformheader" style="padding-bottom:0">税率6.3％適用分</td></tr>
+                              <tr><td class="deductnormaljustify" style="padding-top:0">Ｃ</td></tr>
+                          </table>
+                      </td>
+                      <td id="deducform2headerx" name="deducform2headerx" class="bord-t-th bord-b-th bord-l-th bord-r-th">
+                          <table cellpadding="0" cellspacing="0" style="width:100%">
+                              <tr><td class="deducformheader" style="padding-bottom:0">旧税率分小計Ｘ</td></tr>
+                              <tr><td class="deductnormaljustify" style="padding-top:0">（Ａ＋Ｂ＋Ｃ）</td></tr>
+                          </table>
+                      </td>
+                  </tr>
+                  <!-- Row 1 -->
+                  <tr>
+                        <td id="deducform2box1label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">課税標準額</td>
+                        <td id="deducform2box1no" class="deduc-form-row-no bord-l bord-b center">①</td>
+                        <td class="bord-l-th bord-b">
+                              <div id="deducform2box1asmalllabelright" class="deduct-form-box-label-right">円</div>
+                              <input type="number" id="deducform2box1a" name="deducform2box1a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box1bsmalllabelright" class="deduct-form-box-label-right">円</div>
+                              <input type="number" id="deducform2box1b" name="deducform2box1b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box1csmalllabelright" class="deduct-form-box-label-right">円</div>
+                              <input type="number" id="deducform2box1c" name="deducform2box1c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box1xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の①Ｘ欄へ</div>
+                              <div id="deducform2box1xsmalllabelright" class="deduct-form-box-label-right">円</div>
+                              <input type="number" id="deducform2box1x" name="deducform2box1x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 1-1 -->
+                  <tr>
+                        <td class="bord-l-th bord-b" rowspan="2" style="padding: 5px 0px; vertical-align: middle;">
+                            <div id="deducform2breakdownof1" class="deduc-form-row-label vertical-cell deductform1margin" style="height: 90px;letter-spacing: 5px !important;"><span class="oneformone">①</span><span class="deductblock">の内訳</span></div>
+                        </td>
+                        <td id="deducform2box1_1label" class="deduc-form-row-label bord-l bord-b" colspan="3">課税資産の譲渡等<br/>の対価の額</td>
+                        <td id="deducform2box1_1no" class="deduc-form-row-no bord-l bord-b center">①<div class="deducform-vertical-trasform">‐</div>１</td>
+                        <td class="bord-l-th bord-b">
+                              <div id="deducform2box1_1asmalllabelleft" class="deduct-form-box-label-left">※第二表の②欄へ</div>
+                              <input type="number" id="deducform2box1_1a" name="deducform2box1_1a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box1_1bsmalllabelleft" class="deduct-form-box-label-left">※第二表の③欄へ</div>
+                              <input type="number" id="deducform2box1_1b" name="deducform2box1_1b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box1_1csmalllabelleft" class="deduct-form-box-label-left">※第二表の④欄へ</div>
+                              <input type="number" id="deducform2box1_1c" name="deducform2box1_1c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box1_1xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の①-1Ｘ欄へ</div>
+                              <input type="number" id="deducform2box1_1x" name="deducform2box1_1x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 1-2 -->
+                  <tr>
+                        <td id="deducform2box1_2label" class="deduc-form-row-label bord-l bord-b" colspan="3">特定課税仕入れに<br/>係る支払対価の額</td>
+                        <td id="deducform2box1_2no" class="deduc-form-row-no bord-l bord-b center">①<div class="deducform-vertical-trasform">‐</div>２</td>
+                        <td id="deducform2box1_2a" class="bord-l-th bord-b light-gray-bg">
+                              <div id="deducform2box1_2asmalllabelleft"  style="font-size: 8px;position: relative;top: -3px; left: -7px; background-color: #FFFFFF; width:330px;">※①-2欄は、課税売上割合が95%未満、かつ、特定課税仕入れがある事業者のみ記載する。</div>
+                        </td>
+                        <td id="deducform2box1_2b" class="bord-l bord-b light-gray-bg"></td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box1_2csmalllabelleft" class="deduct-form-box-label-left">※第二表の⑧欄へ</div>
+                              <div style="position: relative;">
+                                    <input type="number" id="deducform2box1_2c" name="deducform2box1_2c" class="deduc-form-field-readonly"  value="0" readonly/>
+                              </div>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box1_2xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の①-2Ｘ欄へ</div>
+                              <input type="number" id="deducform2box1_2x" name="deducform2box1_2x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 2 -->
+                  <tr>
+                        <td id="deducform2box2label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">消費税額</td>
+                        <td id="deducform2box2no" class="deduc-form-row-no bord-l bord-b center">②</td>
+                        <td class="bord-l-th bord-b">
+                              <div id="deducform2box2asmalllabelleft" class="deduct-form-box-label-left">※第二表の⑫欄へ</div>
+                              <input type="number" id="deducform2box2a" name="deducform2box2a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box2bsmalllabelleft" class="deduct-form-box-label-left">※第二表の⑬欄へ</div>
+                              <input type="number" id="deducform2box2b" name="deducform2box2b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box2csmalllabelleft" class="deduct-form-box-label-left">※第二表の⑭欄へ</div>
+                              <input type="number" id="deducform2box2c" name="deducform2box2c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box2xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の②Ｘ欄へ</div>
+                              <input type="number" id="deducform2box2x" name="deducform2box2x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 3 -->
+                  <tr>
+                        <td id="deducform2box3label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">控除過大調整税額</td>
+                        <td id="deducform2box3no" class="deduc-form-row-no bord-l bord-b center">③</td>
+                        <td class="bord-l-th bord-b">
+                              <div id="deducform2box3asmalllabelleft" class="deduct-form-box-label-left">（付表2-2の㉔・㉕Ａ欄の合計金額）</div>
+                              <input type="number" id="deducform2box3a" name="deducform2box3x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box3bsmalllabelleft" class="deduct-form-box-label-left">（付表2-2の㉔・㉕Ｂ欄の合計金額）</div>
+                              <input type="number" id="deducform2box3b" name="deducform2box3b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box3csmalllabelleft" class="deduct-form-box-label-left">（付表2-2の㉔・㉕Ｃ欄の合計金額）</div>
+                              <input type="number" id="deducform2box3c" name="deducform2box3c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box3xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の③Ｘ欄へ</div>
+                              <input type="number" id="deducform2box3x" name="deducform2box3x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 4 -->
+                  <tr>
+                        <td class="bord-l-th bord-b" rowspan="6" colspan="2" style="vertical-align: middle;">
+                              <div id="deducform2deductaxamount" class="deduc-form-row-label vertical-cell" style="height: 300px;letter-spacing: 12px;">控除税額</div>
+                        </td>
+                        <td id="deducform2box4label" class="deduc-form-row-label bord-l bord-b" colspan="2">控除対象仕入税額</td>
+                        <td id="deducform2box4no" class="deduc-form-row-no bord-l bord-b center">④</td>
+                        <td class="bord-l-th bord-b">
+                              <div id="deducform2box4asmalllabelleft" class="deduct-form-box-label-left">（付表2-2の㉓Ａ欄の金額）</div>
+                              <input type="number" id="deducform2box4a" name="deducform2box4a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box4bsmalllabelleft" class="deduct-form-box-label-left">（付表2-2の㉓Ｂ欄の金額）</div>
+                              <input type="number" id="deducform2box4b" name="deducform2box4b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box4csmalllabelleft" class="deduct-form-box-label-left">（付表2-2の㉓Ｃ欄の金額）</div>
+                              <input type="number" id="deducform2box4c" name="deducform2box4c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box4xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の④Ｘ欄へ</div>
+                              <input type="number" id="deducform2box4x" name="deducform2box4x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 5 -->
+                  <tr>
+                        <td id="deducform2box5label" class="deduc-form-row-label bord-l bord-b" colspan="2">返還等対価<br/>に係る税額</td>
+                        <td id="deducform2box5no" class="deduc-form-row-no bord-l bord-b center">⑤</td>
+                        <td class="bord-l-th bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box5a" name="deducform2box5a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box5b" name="deducform2box5b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box5c" name="deducform2box1c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box5xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑤Ｘ欄へ</div>
+                              <input type="number" id="deducform2box5x" name="deducform2box5x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 5-1 -->
+                  <tr>
+                        <td rowspan="2" class="deduc-form-row-label bord-l bord-b" style="padding: 0px 0px;">
+                        <div id="deducform2breakdownof5" class="deduc-form-row-label vertical-cell"><span class="oneformone">⑤</span><span class="deductblock">の内訳</span></div>
+                        </td>
+                        <td id="deducform2box5_1label" class="deduc-form-row-label bord-l bord-b">売上げの返還等<br/>対価に係る税額</td>
+                        <td id="deducform2box5_1no" class="deduc-form-row-no bord-l bord-b center">⑤<div class="deducform-vertical-trasform">‐</div>１</td>
+                        <td class="bord-l-th bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box5_1a" name="deducform2box5_1a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box5_1b" name="deducform2box5_1b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box5_1c" name="deducform2box5_1c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box5_1xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑤-1Ｘ欄へ</div>
+                              <input type="number" id="deducform2box5_1x" name="deducform2box5_1x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 5-2 -->
+                  <tr>
+                        <td id="deducform2box5_2label" class="deduc-form-row-label bord-l bord-b">特定課税仕入れ<br/>の返還等対価<br/>に係る税額</td>
+                        <td id="deducform2box5_2no" class="deduc-form-row-no bord-l bord-b center">⑤<div class="deducform-vertical-trasform">‐</div>２</td>
+                        <td id="deducform2box5_2a" class="bord-l-th bord-b light-gray-bg">
+                              <div id="deducform2box5_2asmalllabelleft"  style="font-size: 8px;position: relative;top: -3px; left: -7px; background-color: #FFFFFF; width:330px;">※⑤-2欄は、課税売上割合が95%未満、かつ、特定課税仕入れがある事業者のみ記載する。</div>
+                        </td>
+                        <td id="deducform2box5_2b" class="bord-l bord-b light-gray-bg"></td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box5_2c" name="deducform2box5_2c" class="deduc-form-field-editable" value="0"/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box5_2xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑤-2Ｘ欄へ</div>
+                              <input type="number" id="deducform2box5_2x" name="deducform2box5_2x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 6 -->
+                  <tr>
+                        <td id="deducform2box6label" class="deduc-form-row-label bord-l bord-b" colspan="2">貸倒れに係る税額</td>
+                        <td id="deducform2box6no" class="deduc-form-row-no bord-l bord-b center">⑥</td>
+                        <td class="bord-l-th bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box6a" name="deducform2box6a" class="deduc-form-field-editable" value="0"/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box6b" name="deducform2box6b" class="deduc-form-field-editable" value="0"/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box6c" name="deducform2box6c" class="deduc-form-field-editable" value="0"/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box6xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑥Ｘ欄へ</div>
+                              <input type="number" id="deducform2box6x" name="deducform2box6x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 7 -->
+                  <tr>
+                      <td id="deducform2box7label" class="deduc-form-row-label bord-l bord-b" colspan="2">控除税額小計<br/><span class="deductnormaljustify">（④＋⑤＋⑥）</span></td>
+                        <td id="deducform2box7no" class="deduc-form-row-no bord-l bord-b center">⑦</td>
+                        <td class="bord-l-th bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box7a" name="deducform2box7a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box7b" name="deducform2box17b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box7c" name="deducform2box7c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box7xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑦Ｘ欄へ</div>
+                              <input type="number" id="deducform2box7x" name="deducform2box7x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 8 -->
+                  <tr>
+                      <td id="deducform2box8label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">控除不足還付税額<br/><span class="deductnormaljustify">（⑦－②－③）</span></td>
+                        <td id="deducform2box8no" class="deduc-form-row-no bord-l bord-b center">⑧</td>
+                        <td class="bord-l-th bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box8a" name="deducform2box8a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box8bsmalllabelleft" class="deduct-form-box-label-left">※⑪Ｂ欄へ</div>
+                              <input type="number" id="deducform2box8b" name="deducform2box8b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box8csmalllabelleft" class="deduct-form-box-label-left">※⑪Ｃ欄へ</div>
+                              <input type="number" id="deducform2box8c" name="deducform2box8c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box8xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑧Ｘ欄へ</div>
+                              <input type="number" id="deducform2box8x" name="deducform2box8x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 9 -->
+                  <tr>
+                      <td id="deducform2box9label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">差引税額<br/><span class="deductnormaljustify">（②＋③－⑦）</span></td>
+                        <td id="deducform2box9no" class="deduc-form-row-no bord-l bord-b center">⑨</td>
+                        <td class="bord-l-th bord-b">
+                              <div class="deduct-form-box-label-left" style="width: 100%;">&#xA0; <!--This white space is intented.--></div>
+                              <input type="number" id="deducform2box9a" name="deducform2box9a" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box9bsmalllabelleft" class="deduct-form-box-label-left">※⑫Ｂ欄へ</div>
+                              <input type="number" id="deducform2box9b" name="deducform2box9b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box9csmalllabelleft" class="deduct-form-box-label-left">※⑫Ｃ欄へ</div>
+                              <input type="number" id="deducform2box9c" name="deducform2box9c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box9xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑨Ｘ欄へ</div>
+                              <input type="number" id="deducform2box9x" name="deducform2box9x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 10 -->
+                  <tr>
+                      <td id="deducform2box10label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">合計差引税額<br/><span class="deductnormaljustify">（⑨－⑧）</span></td>
+                        <td id="deducform2box10no" class="deduc-form-row-no bord-l bord-b center">⑩</td>
+                        <td id="deducform2box10a" class="bord-l-th bord-b light-gray-bg"></td>
+                        <td id="deducform2box10b" class="bord-l bord-b light-gray-bg"></td>
+                        <td id="deducform2box10c" class="bord-l bord-b light-gray-bg"></td>
+                        <td id="deducform2box10x" class="bord-l-th bord-r-th bord-b light-gray-bg"></td>
+                  </tr>
+                  <!-- Row 11 -->
+                  <tr>
+                        <td class="bord-l-th bord-b" rowspan="2" colspan="2">
+                              <div id="deducform2amountpaidtaxpurc" class="deduc-form-row-label vertical-cell" style="font-size: 9px; height: 100px;letter-spacing: 1px;">地方消費税の課税標<br/>準となる消費税額</div>
+                        </td>
+                        <td id="deducform2box11label" class="deduc-form-row-label bord-l bord-b" colspan="2">控除不足還付税額</td>
+                        <td id="deducform2box11no" class="deduc-form-row-no bord-l bord-b center">⑪</td>
+                        <td id="deducform2box11a" class="bord-l-th bord-b light-gray-bg"></td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box11bsmalllabelleft" class="deduct-form-box-label-left">（⑧Ｂ欄の金額）</div>
+                              <input type="number" id="deducform2box11b" name="deducform2box11b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box11csmalllabelleft" class="deduct-form-box-label-left">（⑧Ｃ欄の金額）</div>
+                              <input type="number" id="deducform2box11c" name="deducform2box11c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box11xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑪Ｘ欄へ</div>
+                              <input type="number" id="deducform2box11x" name="deducform2box11x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 12 -->
+                  <tr>
+                        <td id="deducform2box12label" class="deduc-form-row-label bord-l bord-b" colspan="2">差引税額</td>
+                        <td id="deducform2box12no" class="deduc-form-row-no bord-l bord-b center">⑫</td>
+                        <td id="deducform2box12a" class="bord-l-th bord-b light-gray-bg"></td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box12bsmalllabelleft" class="deduct-form-box-label-left">（⑨Ｂ欄の金額）</div>
+                              <input type="number" id="deducform2box12b" name="deducform2box12b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box12csmalllabelleft" class="deduct-form-box-label-left">（⑨Ｃ欄の金額）</div>
+                              <input type="number" id="deducform2box12c" name="deducform2box12c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box12xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑫Ｘ欄へ</div>
+                              <input type="number" id="deducform2box12x" name="deducform2box12x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 13 -->
+                  <tr>
+                        <td id="deducform2box13label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">合計差引地方消費税の<br/>課税標準となる消費税額<br/><span class="deductnormaljustify">（⑫－⑪）</span></td>
+                        <td id="deducform2box13no" class="deduc-form-row-no bord-l bord-b center">⑬</td>
+                        <td id="deducform2box13a" class="bord-l-th bord-b light-gray-bg"></td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box13bsmalllabelleft" class="deduct-form-box-label-left">※第二表の㉑欄へ</div>
+                              <input type="number" id="deducform2box13b" name="deducform2box13b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box13csmalllabelleft" class="deduct-form-box-label-left">※第二表の㉒欄へ</div>
+                              <input type="number" id="deducform2box13c" name="deducform2box13c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box13xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑬Ｘ欄へ</div>
+                              <input type="number" id="deducform2box13x" name="deducform2box13x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 14 -->
+                  <tr>
+                        <td class="bord-l-th bord-b" rowspan="2" colspan="2" style="vertical-align: center;">
+                              <div id="deducform2amounttransfer" class="deduc-form-row-label vertical-cell" style="height: 70px;letter-spacing: 5px;">譲渡割額</div>
+                        </td>
+                        <td id="deducform2box14label" class="deduc-form-row-label bord-l bord-b" colspan="2">還付額</td>
+                        <td id="deducform2box14no" class="deduc-form-row-no bord-l bord-b center">⑭</td>
+                        <td id="deducform2box14a" class="bord-l-th bord-b light-gray-bg"></td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box14bsmalllabelleft" class="deduct-form-box-label-left">（⑪Ｂ欄×25/100）</div>
+                              <input type="number" id="deducform2box14b" name="deducform2box14b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box14csmalllabelleft" class="deduct-form-box-label-left">（⑪Ｃ欄×17/63）</div>
+                              <input type="number" id="deducform2box14c" name="deducform2box14c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box14xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑭Ｘ欄へ</div>
+                              <input type="number" id="deducform2box14x" name="deducform2box14x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 15 -->
+                  <tr>
+                        <td id="deducform2box15label" class="deduc-form-row-label bord-l bord-b" colspan="2">納税額</td>
+                        <td id="deducform2box15no" class="deduc-form-row-no bord-l bord-b center">⑮</td>
+                        <td id="deducform2box15a" class="bord-l-th bord-b light-gray-bg"></td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box15bsmalllabelleft" class="deduct-form-box-label-left">（⑫Ｂ欄×25/100）</div>
+                              <input type="number" id="deducform2box15b" name="deducform2box15b" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l bord-b">
+                              <div id="deducform2box15csmalllabelleft" class="deduct-form-box-label-left">（⑫Ｃ欄×17/63）</div>
+                              <input type="number" id="deducform2box15c" name="deducform2box15c" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                        <td class="bord-l-th bord-r-th bord-b">
+                              <div id="deducform2box15xsmalllabelleft" class="deduct-form-box-label-left">※付表1-1の⑮Ｘ欄へ</div>
+                              <input type="number" id="deducform2box15x" name="deducform2box15x" class="deduc-form-field-readonly" value="0" readonly/>
+                        </td>
+                  </tr>
+                  <!-- Row 16 -->
+                  <tr>
+                      <td id="deducform2box16label" class="deduc-form-row-label bord-l-th bord-b" colspan="4">合計差引譲渡割額<br/><span class="deductnormaljustify">（⑮－⑭）</span></td>
+                        <td id="deducform2box16no" class="deduc-form-row-no bord-l bord-b center">⑯</td>
+                        <td id="deducform2box16a" class="bord-l-th bord-b light-gray-bg"></td>
+                        <td id="deducform2box16b" class="bord-l bord-b light-gray-bg"></td>
+                        <td id="deducform2box16c" class="bord-l bord-b light-gray-bg"></td>
+                        <td id="deducform2box16x" class="bord-l-th bord-r-th bord-b light-gray-bg"></td>
+                  </tr>
+                  <tr id="deducform2footer1" class="deduc-form-footer">
+                        <td id="deducform2footernote" colspan="2">注意</td>
+                        <td id="deducform2footercontent" colspan="7">
+                              <ol class="deduc-form-ordered-list" style="padding: 0px; margin: 0px;">
+                                    <li id="deducform2footernote1">金額の計算においては、１円未満の端数を切り捨てる。</li>
+                                    <li id="deducform2footernote2">旧税率が適用された取引がある場合は、当該付表を作成してから付表1-1を作成する。</li>
+                              </ol>
+                        </td>
+                  </tr>
+                  <tr id="deducform2footer2" class="deduc-form-footer">
+                        <td id="deducform2footertaxperioend" colspan="9" style="text-align: right; padding-right: 0px;">（H31.10.1以後終了課税期間用）</td>
+                  </tr>
+            </table>
+      </form>
+</div>
